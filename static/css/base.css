@@ -34,11 +34,13 @@ body {
 }
 
 h2 strong {
-    color:orange
+    color: #cc5e39;
+    letter-spacing: 2px;
+    word-spacing: 2px;
 }
 
 .shop-now-button {
-    background: black;
+    background: #cc5e39;
     color: white;
     min-width: 260px;
 }
@@ -58,7 +60,7 @@ h2 strong {
     color: white;
 }
 
-.text-black {
+.text-black{
     color: #000 !important;
 }
 
@@ -66,6 +68,13 @@ h2 strong {
     border: 1px solid black !important;
 }
 
+.bg-black {
+    background: #000 !important;
+}
+
+.bg-maroon {
+    background: #cc5e39 !important;
+}
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
