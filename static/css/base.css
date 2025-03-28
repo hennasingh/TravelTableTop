@@ -75,6 +75,14 @@ h2 strong {
 .bg-maroon {
     background: #cc5e39 !important;
 }
+
+/* ---------------------------------- Products Page */
+
+.game-img-size {
+    height: 300px;
+    object-fit: cover;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */

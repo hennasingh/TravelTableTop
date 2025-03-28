@@ -11,10 +11,60 @@
 
 {% block content %}
 <section id="games">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col">
-                {{ products }}
+            <div class="col text-center mt-3">
+                <h2 class="logo-font mb-3">All Games</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="games-container col-8 offset-2">
+                <div class="row mt-1 mb-2"></div>
+                <div class="row g-4">
+                    {% for product in products %}
+                        <div class="col-sm-6 col-md-6 col-lg-3 mb-5">
+                            <div class="card h-100">
+                                {% if product.image %}
+                                <a href="">
+                                    <img class="card-img-top game-img-size" src="{{ product.image.url }}" alt="{{ product.name }}">
+                                </a>
+                                {% else %}
+                                <a href="">
+                                    <img class="card-img-top" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                                </a>
+                                {% endif %}
+                                <div class="card-body pb-0">
+                                    <h5 class="card-title">{{ product.name }}</h5>
+                                    <div class="mb-2">
+                                        <span class="badge badge-players me-2">
+                                            <span class="badge badge-players me-2">
+                                                {% if product.min_players == product.max_players or product.max_players == 0  %}
+                                                    {{ product.min_players }} player{{ product.min_players|pluralize }}
+                                                {% else %}
+                                                    {{ product.min_players }} - {{ product.max_players }} players
+                                                {% endif %}
+                                            </span>
+                                        </span>
+                                        <span class="badge badge-age">Ages {{ product.min_age }}+</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer bg-white pt-0 border-0 text-left">
+                                    <div class="row">
+                                        <div class="col">
+                                            <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
+                                            {% if product.rating %}
+                                                <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 10</small>
+                                            {% else %}
+                                                <small class="text-muted">No Rating</small>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+ 
+                    {% endfor %}
+                </div>
             </div>
         </div>
     </div>
