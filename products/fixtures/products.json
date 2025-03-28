@@ -1,0 +1,413 @@
+[
+    {
+    "model": "products.Product",
+    "fields": {
+            "name": "No Thanks!",
+            "year": 2004,
+            "rating": 7.08057,
+            "price": 17.8,
+            "complexity": 1.131,
+            "min_age": 8,
+            "min_players": 3,
+            "max_players": 7,
+            "playing_time": 20,
+            "max_playing_time": 20,
+            "description": "No Thanks! is a card game designed to be as simple as it is engaging.\n\nThe rules are simple.  Each turn, players have two options:\n\n    play one of their chips to avoid picking up the current face-up card\n    pick up the face-up card (along with any chips that have already been played on that card) and turn over the next card\n\n\nHowever, the choices aren't so easy as players compete to have the lowest score at the end of the game.  The deck of cards is numbered from 3 to 35, with each card counting for a number of points equal to its face value.  Runs of two or more cards only count as the lowest value in the run - but nine cards are removed from the deck before starting, so be careful looking for connectors.  Each chip is worth -1 point, but they can be even more valuable by allowing you to avoid drawing that unwanted card.\n\nThe first versions of the game supported up to five players, but the German 2011 edition supports up to seven (simply by increasing the number of chips).\n\nThis game was originally published in Germany in 2004 by Amigo as Geschenkt ...ist noch zu teuer!, meaning Even given as a gift, it is still too expensive!.  Amigo's 2006 international edition, titled No Merci! (a delightful multi-lingual pun), had rules in several languages, including English. The game has subsequently been released in other countries under an assortment of names. The German 2024 edition includes additional cards to allow for play with variant rules.\n\n",
+            "image_url": "https://cf.geekdo-images.com/2DyxMVASynw87LRULZuyqA__original/img/IHLuH9f5dB6jJn74cdVdMixAUKg=/0x0/filters:format(jpeg)/pic4657706.jpg",
+            "image": "pic4657706.jpg",
+            "thumbnail": "https://cf.geekdo-images.com/2DyxMVASynw87LRULZuyqA__thumb/img/yIUSMoN8O5FeDZjXa4vreKj5Ogw=/fit-in/200x150/filters:strip_icc()/pic4657706.jpg",
+            "category": 2
+        }
+    },
+    {
+    "model": "products.Product",
+    "fields": {
+            "name": "Hive",
+            "year": 2001,
+            "rating": 7.31894,
+            "price": 26.88,
+            "complexity": 2.3153,
+            "min_age": 9,
+            "min_players": 2,
+            "max_players": 2,
+            "playing_time": 20,
+            "max_playing_time": 20,
+            "description": "Hive is a strategic game for two players that is not restricted by a board and can be played anywhere on any flat surface. Hive is made up of twenty two pieces, eleven black and eleven white, resembling a variety of creatures each with a unique way of moving.\n\nWith no setting up to do, the game begins when the first piece is placed down. As the subsequent pieces are placed this forms a pattern that becomes the playing surface (the pieces themselves become the board). Unlike other such games, the pieces are never eliminated and not all have to be played. The object of the game is to totally surround your opponent's queen, while at the same time trying to block your opponent from doing likewise to your queen. The player to totally surround his opponent's queen wins the game.\n\n•••\n\nHive FAQ - please read before posting questions in the forum!\n\n",
+            "image_url": "https://cf.geekdo-images.com/fQe85tsBZoH6ibPnm1k1UA__original/img/eqUVrCJKcMBGBhw4Gfc9_9JabYE=/0x0/filters:format(jpeg)/pic791151.jpg",
+            "image": "pic791151.jpg",
+            "thumbnail": "https://cf.geekdo-images.com/fQe85tsBZoH6ibPnm1k1UA__thumb/img/8ULXa8v7095ohgXMMmNlCGrC7zU=/fit-in/200x150/filters:strip_icc()/pic791151.jpg",
+            "category": 1
+
+        }
+    },
+    {
+    "model": "products.Product",
+    "fields": {
+            "name": "Monopoly Express",
+            "year": 1991,
+            "rating": 5.68752,
+            "price": 46.8,
+            "complexity": 1.1368,
+            "min_age": 8,
+            "min_players": 2,
+            "max_players": 4,
+            "playing_time": 20,
+            "max_playing_time": 20,
+            "description": "Don't Go to Jail is a dice game derived from Monopoly. The game board depicts the monopolies found in the original game, with the property groups color-coded as in Monopoly. Each property group has a given dollar value, which you can collect by rolling the dice and collecting that group.\n\nOn a turn, you roll ten dice, set aside any die reading \"Go,\" \"to\" or \"jail\", then set aside any color group dice that you wish. If the \"Go,\" \"to\" and \"jail\" dice are set aside, your turn ends immediately, and you score nothing. Otherwise you can choose to either (1) stop and score for what you've rolled or (2) roll again with any dice not set aside, once again setting aside the \"Go,\" \"to\" or \"jail\" dice, etc. The dice have a couple of \"Wild\" faces, and you can use at most one Wild in a color group. (If you roll the proper color, you can replace a Wild die in a group and roll that die again on a later turn.)\n\nIf you stop, you score for all completed color groups and one incomplete color group. Your goal is to be the first player to reach a predetermined dollar amount or to have the most money at the end of a pre-set number of turns.\n\nMonopoly Express – an updated version of this game that was first released in the UK and Europe, then later in the U.S. – alters the gameplay as follows:\n\n\n     The policeman from the \"Go To Jail\" corner of the board game replaces the words \"Go,\" \"to\" and \"jail\".\n     One blank face on one of the policeman dice depicts a green \"GO\" arrow. A player earns $200 each time they roll GO, but they lose this money if they bust due to policemen. \n     The game includes an eleventh \"House/Hotel\" die that can earn (or lose) a player Houses (worth $1,000 each), earn Hotels (worth $5,000, but only if a player has already earned four houses) and a \"Get Out Of Jail Free\" side that negates a policeman (including a policeman that would bust a player). This die cannot be rolled until a player completes a property group (i.e., neither railroads nor utilities).\n     The Wild faces are replaced by the Chance \"?\" logo; the ? act as a Wild, but unlike a Wild it cannot be replaced.\n     The first player to have at least $15,000 wins immediately; players don't complete the round.\n\n\nIn 2021, this game was re-released in the US as Monopoly DICED! with square packaging rather than the round used for Express.\n\n",
+            "image_url": "https://cf.geekdo-images.com/cb95u8TbQn8GeqVKReuV5w__original/img/3NoUo3tYup_S8vrIrmWVqm8wBys=/0x0/filters:format(jpeg)/pic273284.jpg",
+            "image": "pic273284.jpg",
+            "thumbnail": "https://cf.geekdo-images.com/cb95u8TbQn8GeqVKReuV5w__thumb/img/uzV9pvlU2omoN8Yj89CoqrdnWtA=/fit-in/200x150/filters:strip_icc()/pic273284.jpg",
+            "category": 3
+        }
+    },
+    {
+    "model": "products.Product",
+    "fields": {
+            "name": "GOLO",
+            "year": 1999,
+            "rating": 5.63688,
+            "price": 15.99,
+            "complexity": 1.1613,
+            "min_age": 8,
+            "min_players": 1,
+            "max_players": 0,
+            "playing_time": 10,
+            "max_playing_time": 10,
+            "description": "GOLO Golf dice is played with 9 12-sided dice that represent the 9 holes on the front (or the back) of an 18-hole traditional golf course. There are 5 white dice (par 4s), 2 red dice (par 3's) and 2 blue dice (par 5s). Each dice has the ability to shoot above par, par, or below par. There are as many formats as there are golf side games, but players typically play in one of two formats:\n\nTraditional Format:\n\nAll nine dice are rolled--the player chooses at least 1 die, but can use more than one to count toward his/her 9-hole total. The remaining dice are picked up and rolled again. Players have the option of having multiple dice count toward their score, or choose as few as one and try to \"GO LO\" (shoot a low score--golf parlance).\n\nGolf Course Format:\n\nIn this format, the players must follow along to the scorecard of their favorite course, or any course. If the first 9 holes (\"Front 9\") at Pebble Beach are laid out in this order--4-4-3-4-5-3-4-4-5=36, then when the player begins by rolling all 9 dice, he/she must play the course \"in order\" by choosing two par 4's before he/she may then chose a par 3. Having to go in the order of holes on a golf course creates a different strategy and usually produces higher scores than the Traditional format.\n\nIn all formats, tournament play is the most exciting--where players are playing against each other, and their scores are affecting other players' choices and strategies.\n\nA game primarily for non-gamers and sports nuts, which nevertheless is a very strategic, \"push-your-luck\" dice game. It is not just a matter of rolling dice and counting up your score; the requirement of keeping one or more dice each time you roll presents many interesting choices, depending on what your opponent has done, and what you already have kept for scoring.\n\nThe game is sold online and in major golf shops and golf stores. Game includes a cup, nine dice, score pad, pencil, and rulebook.\n\n",
+            "image_url": "https://cf.geekdo-images.com/ocr6RtneQ2gXDI8PRVa9zA__original/img/2FoBTK-QvJYuFwMIMOMQBKmZlYs=/0x0/filters:format(jpeg)/pic5925983.jpg",
+            "image": "pic5925983.jpg",
+            "thumbnail": "https://cf.geekdo-images.com/ocr6RtneQ2gXDI8PRVa9zA__thumb/img/_Nm3R0A6Gl6Tdztc-FbDo_7CSzE=/fit-in/200x150/filters:strip_icc()/pic5925983.jpg",
+            "category": 3
+        }
+    },
+    {
+    "model": "products.Product",
+    "fields": {
+            "name": "Catan Dice Game",
+            "year": 2007,
+            "rating": 5.72442,
+            "price": 8.99,
+            "complexity": 1.2275,
+            "min_age": 7,
+            "min_players": 1,
+            "max_players": 4,
+            "playing_time": 30,
+            "max_playing_time": 30,
+            "description": "Like all the other games of the \"Settlers of Catan\" series, this game is about building settlements, roads, cities and hiring knights. This time, there is no board on which to place little figures: Every player has his own score card called the building sheet, which depicts a mini Catan (compare with Die Siedler von Catan: Paper & Pencil). You build by drawing the settlements and roads on your score card.\n\nTo build you still require resources. These are collected by a Yahtzee-like mechanism that involves throwing six special dice (depicting the different resource symbols) up to three times. After each roll, the player can select which dice to keep and which to roll again. In the end, he may build using the thusly determined resources, and is awarded victory points for any finished buildings, which are recorded on the score card.\n\nThe game lasts fifteen turns or about 15-30 minutes, after which the player with the most victory points wins.\n\nNote that the game has been designed for 1-4 players, meaning there is a solitaire version of the game, as well.\n\nRecent versions include double-sided map sheets and instructions for Catan Dice Game Plus.\n\n",
+            "image_url": "https://cf.geekdo-images.com/lNVa_4IQ3pBHuh5CRzSe-w__original/img/nDWd2-dY7D1ZoFPZhXvDqQs_BA8=/0x0/filters:format(jpeg)/pic3661032.jpg",
+            "image": "pic3661032.jpg",
+            "thumbnail": "https://cf.geekdo-images.com/lNVa_4IQ3pBHuh5CRzSe-w__thumb/img/ICEhSw8IrhG7i-zNf9k7E3I3rrs=/fit-in/200x150/filters:strip_icc()/pic3661032.jpg",
+            "category": 3
+        }
+    },
+    {
+    "model": "products.Product",
+    "fields":{
+            "name": "micropul",
+            "year": 2004,
+            "rating": 6.75523,
+            "price": 11.8,
+            "complexity": 1.9091,
+            "min_age": 9,
+            "min_players": 1,
+            "max_players": 2,
+            "playing_time": 30,
+            "max_playing_time": 30,
+            "description": "micropul is a strategic & tactical tile-laying game in which players are scientists trying to extract precious micropul matter from an energy core.\n\nThe game can be played as a solitaire puzzle or competitively.\n\nEach player has a hand of tiles they must play optimally to keep a flow of new tiles coming in and if possible keep aside some tiles in a supply stack that will be worth more points at the end of the game. Drawing new tiles is done by activating catalysts, this part is very tactical.\n\nDuring the game, groups of micropul of the same color will get formed. These groups can be claimed and will be worth a lot of points if they are closed at the end of the game. This is the strategic part.\n\nWinning is done by balancing the tactical and strategic part.\n\nPrint & Play\n\n\n     http://neutralbox.com/micropul/\n     (Rules are available in English, Japanese, Spanish, Polish and French.)\n\n\nOnline Play\n\n\n     Boardspace.net (real time, robot option)\n     http://superpowernosissies.com/games/game-preserve/micropul/ (solitaire)\n\n\nMobile Apps\n\n     Boardspace.net local multiplayer or online, IOS\n     Boardspace.net local multiplayer or online, Android\n\n\n",
+            "image_url": "https://cf.geekdo-images.com/zIbpTrJVbbL_uO5FD8b1Fg__original/img/lGdKnHJlnJBELYH2t0WvmxdBbtc=/0x0/filters:format(jpeg)/pic4388989.jpg",
+            "image": "pic4388989.jpg",
+            "thumbnail": "https://cf.geekdo-images.com/zIbpTrJVbbL_uO5FD8b1Fg__thumb/img/OCI7cHV4rsSEahEVdvpG30U08os=/fit-in/200x150/filters:strip_icc()/pic4388989.jpg",
+            "category": 1
+        }
+    },
+    {
+    "model": "products.Product",
+    "fields":{
+            "name": "Pocket Civ",
+            "year": 2005,
+            "rating": 6.61709,
+            "price": 75.8,
+            "complexity": 2.7553,
+            "min_age": 12,
+            "min_players": 1,
+            "max_players": 2,
+            "playing_time": 30,
+            "max_playing_time": 30,
+            "description": "From the designer's website: \"A Solitaire Civilization game that's compact enough to play on a plane.\"\n\nPocketCiv is a print and play game that provides a solo or two-player civilization experience. PocketCiv comes in two flavors, Deluxe and Basic. Basic refers to the barest, stripped down version that you play with the deck of provided cards, and a pad of paper and a pencil. This version is very portable. However, if you want a more boardgame-like experience, you can download all the other artwork, and mount it on cardboard, illustration board (my new favorite mounting material) or foam core.\n\nThe starting layout can be set up randomly, or for an additional challenge, one of the author's predefined Scenarios can be used.\n\nUsing tribes to expand your civilization, create cities, buy advances, build wonders and go on expeditions, while preparing for the devastation that random events will bring.  Only with careful planning and a little luck will your empire stand the test of time.\n\n",
+            "image_url": "https://cf.geekdo-images.com/0xobtr5MjdBbcRMZwRqiYA__original/img/nM5vwfdCXhCXxI5QAwzrYckDRaA=/0x0/filters:format(jpeg)/pic507528.jpg",
+            "image": "pic507528.jpg",
+            "thumbnail": "https://cf.geekdo-images.com/0xobtr5MjdBbcRMZwRqiYA__thumb/img/HScmk2Gg1C3qqyI17oFPuhoGyPU=/fit-in/200x150/filters:strip_icc()/pic507528.jpg",
+            "category": 2
+        }
+    },
+    {
+    "model": "products.Product",
+    "fields": {
+            "name": "Netrunner",
+            "year": 1996,
+            "rating": 7.44486,
+            "price": 29.99,
+            "complexity": 2.9336,
+            "min_age": 10,
+            "min_players": 2,
+            "max_players": 2,
+            "playing_time": 45,
+            "max_playing_time": 45,
+            "description": "Netrunner is a cyberpunk-themed collectible card game.  The two players are the Corp (who wins by completing Agendas) and the Runner (who wins by infiltrating the Corp and liberating Agendas).\n\nEach side has a limited number of both actions and bits (money) to spend per turn; bits are gone once used, and actions must be spent to gain more.\nAn important thing when evaluating the power of cards is to see the Bit per action ratio.\n\nOne unique feature of this game is that the Runner physically moves on the \"board\" created by facedown Corp cards.  It has the feel of a \"capture the flag\" game, with the Runner moving in dataforts to steal Agendas from the Corp.\n\nAnother unique feature is that the Cards are NOT the primary strategy of the game; in fact, players can win by simply \"playing with the rules\" itself (a concept difficult to understand if you've never played Netrunner).\n\nBoth players play as both Corp and Runner in a game, one after the other, with each player's Runner going against the opponent's Corp.  A winning match provides 10 points and the loser scores points equal to the number of agenda points scored/liberated. The winner of the game is the one who has the most points in the 2 submatches.\n\nThough Netrunner is traditionally a two-player duel, there are formats that allow for more players (called \"The Big Sell Out\").\n\n",
+            "image_url": "https://cf.geekdo-images.com/Xv_C5PpqX8kDwU-8iktmgQ__original/img/C4u4nrMitMztbos3TN8SjIL87_w=/0x0/filters:format(jpeg)/pic92015.jpg",
+            "image": "pic92015.jpg",
+            "thumbnail": "https://cf.geekdo-images.com/Xv_C5PpqX8kDwU-8iktmgQ__thumb/img/cmWb4qmyF5aLkAmrj7fhe77ODlo=/fit-in/200x150/filters:strip_icc()/pic92015.jpg",
+            "category": 2
+        }
+    },
+    {
+    "model": "products.Product",
+    "fields": {
+            "name": "Tantrix",
+            "year": 1991,
+            "rating": 6.36355,
+            "price": 27,
+            "complexity": 2.2236,
+            "min_age": 8,
+            "min_players": 1,
+            "max_players": 6,
+            "playing_time": 30,
+            "max_playing_time": 30,
+            "description": "Tantrix is a strategy game using painted synthetic resin hexagons (often mistakenly thought to be Bakelite). It was invented in New Zealand, and is clearly derived from the earlier Psyche-paths/Kaliko. Tantrix can be played as solitaire puzzles, ranging from easy to almost impossible, or as a multiplayer strategy game featuring a combination of strategy, luck and skill. Each tile has three tracks on it, in three different colors (out of four colors). Each track starts on one side of the tile and ends on another. The goal of the game is to create the longest line or loop of your chosen color. If you create a closed loop, each tile counts for two points.\n\nEach player has an open hand of six tiles. When it is your turn, you must first play tiles in any spaces that are \"required play\" (any hole that has at least three tiles bordering it is a required play). After each played tile, you randomly draw a new tile. Once you've filled all required spaces, you play one tile in any legal space. After that, you once again need to fill required spaces. To play the game well, you need to create required spaces in smart ways. This way you can both enable yourself to play more tiles during your turn and force your opponent to play tiles that continue your track (remember that your opponent's hand is open, so try to create required spaces that take advantage of his tiles).\n\nThe full version contains 56 tiles.\n\nNote that there are also smaller solo brain teaser puzzles that are Outside the Scope of BGG. The 10-tile version is a color matching puzzle. Arrange the tiles so that all the colored lines match where the tiles touch each other. Additionally, for each puzzle challenge, select one color, and create a closed loop. Begin the easy puzzle by using the first four tiles (which are numbered on the reverse side 1, 2, 3 & 4). Increase the level of difficulty by adding the fifth tile, then 6th tile etc. Comes in Green & Black.\n\nSimilar to:\n\n    Tantrix Gobble\n    The Mind Game\n    Kaliko (Psyche-Paths)\n\n\n",
+            "image_url": "https://cf.geekdo-images.com/4_motvqsgOa1NjQUwoeIng__original/img/8qiaowUqlMlhgFkxDLqOs1B8JeE=/0x0/filters:format(png)/pic8692267.png",
+            "image": "pic8692267.png",
+            "thumbnail": "https://cf.geekdo-images.com/4_motvqsgOa1NjQUwoeIng__thumb/img/fuPiUilGOw85ZKg0QUwMOQU1Hug=/fit-in/200x150/filters:strip_icc()/pic8692267.png",
+            "category": 1
+        }
+    },
+    {
+    "model": "products.Product",
+    "fields": {
+            "name": "Farkle",
+            "year": 1996,
+            "rating": 5.64314,
+            "price": 25.5,
+            "complexity": 1.1126,
+            "min_age": 8,
+            "min_players": 2,
+            "max_players": 6,
+            "playing_time": 30,
+            "max_playing_time": 30,
+            "description": "Farkel is a proprietary version of the traditional dice game Farkle (or Dix Mille), and is a push-your luck game played with six dice. You roll 6 dice, and remove any dice you want to use for points. You can stop, keeping the points, or re-roll the remaining dice.  Points can be scored by specific numbers (e.g. 5 or 1) or sets of the same number. If you can use all six dice for points, pick them all up and keep going.\n\n'Bank' your points and end your turn at any time but beware, some scoring dice must be removed after every roll - if no scoring dice are rolled your turn ends and you score zero points.\n\nThe highest score over 10,000 wins the game.\n\nIn 1996, Charlie and Mary Potter, known as \"Mr and Mrs Farkel\", created a copyrighted scoring system and lodged various trade marks. The scoring system is proprietary to Legendary Games, Inc. Charlie started by selling product made on his kitchen table. Over the course of 10 years, it became a commercial hit. In 2007 Patch launched a version of the game spelled as \"Farkle\" with almost the same logo design, which soon after they changed.\n\n",
+            "image_url": "https://cf.geekdo-images.com/CKRu4CRpDan3G2tgvEEVrA__original/img/hMn8ZFnL4U2n51C2UrHtEfAYTY4=/0x0/filters:format(jpeg)/pic3624966.jpg",
+            "image": "pic3624966.jpg",
+            "thumbnail": "https://cf.geekdo-images.com/CKRu4CRpDan3G2tgvEEVrA__thumb/img/QfDqSbD-0wNsF9e6xbXKYiOtUgU=/fit-in/200x150/filters:strip_icc()/pic3624966.jpg",
+            "category": 3
+        }
+    },
+    {
+    "model": "products.Product",
+    "fields":
+        {
+            "name": "Cosmic Wimpout",
+            "year": 1975,
+            "rating": 6.01948,
+            "price": 32.8,
+            "complexity": 1.2243,
+            "min_age": 7,
+            "min_players": 2,
+            "max_players": 7,
+            "playing_time": 20,
+            "max_playing_time": 20,
+            "description": "Cosmic Wimpout is \"More than an Experience, It's a game!\" In the family of push-your-luck dice games that garners great love, mostly through word-of-mouth marketing. It was a cult-game phenomenon in the Grateful Dead universe. The game flourished with the help of college students and Deadhead fans.\n\nYou play by rolling the five Cosmic Wimpout cubes and get points for each 5, 10, or Flash (triplet) that you roll. You can accumulate points towards the winning total by ending your turn or risking it all, because if you roll and don't score, you lose all the points for that turn, and the next player goes. Thus like life, \"Sometimes you are in the cosmos, and sometimes you wimp out.\" After certain results, a player may choose to end his turn, scoring the points he has accumulated. The first player to reach an agreed-upon score wins (300-600 for a short game with scores kept on paper, 1000-1500 more typically on the game boards), and the game can fit into a small dice tube.\n\nThroughout the years, several variations of dice designs have made early versions of the game collectible. There are several silk-screened fabric boards that vary the game length and require the player to use a personalized or improvised pawn.\n\nNumerous variants and house rules exist, and players are encouraged to change the rules (by unanimous agreement), even during the game.\n\n",
+            "image_url": "https://cf.geekdo-images.com/OXHFFkDda0h7bw9Qa3hczw__original/img/_uzhPa0Ah1qN_fiOyzBhatAgpb0=/0x0/filters:format(jpeg)/pic247006.jpg",
+            "image": "pic247006.jpg",
+            "thumbnail": "https://cf.geekdo-images.com/OXHFFkDda0h7bw9Qa3hczw__thumb/img/y0CruyVRnIL_45noVVfV2MYLioM=/fit-in/200x150/filters:strip_icc()/pic247006.jpg",
+            "category": 3
+        }
+    },
+    {
+    "model": "products.Product",
+    "fields":
+        {
+            "name": "Rage",
+            "year": 1983,
+            "rating": 6.19791,
+            "price": 42,
+            "complexity": 1.471,
+            "min_age": 8,
+            "min_players": 2,
+            "max_players": 10,
+            "playing_time": 45,
+            "max_playing_time": 45,
+            "description": "Based on the widely-known card game Oh Hell!, players use the deck of zero through fifteen in six suits to bid for a particular number of tricks and then subsequently take exactly that many.  Each game consists of ten hands, with the hand size shrinking by one each time, until the final one-card hand.  Along the way, trump is randomly determined and can be changed during the hand through the use of special cards.  There are also special cards that make the trump not count for a trick, others that can be declared any suit and value when played, and others that will give bonuses or penalties for taking the trick on which they're played.  A newer version of this game was released by Amigo in 2000.\n\n",
+            "image_url": "https://cf.geekdo-images.com/d0yeudP-qOks0fnha_HCsA__original/img/SuXsJwUs7lxdgpKB3fNbp7Pd7-k=/0x0/filters:format(jpeg)/pic149723.jpg",
+            "image": "pic149723.jpg",
+            "thumbnail": "https://cf.geekdo-images.com/d0yeudP-qOks0fnha_HCsA__thumb/img/fbbirjkJiET0do2EwswZmGDYOro=/fit-in/200x150/filters:strip_icc()/pic149723.jpg",
+            "category": 2
+        }
+    },
+    {
+    "model": "products.Product",
+    "fields":
+        {
+            "name": "Werewolf",
+            "year": 1986,
+            "rating": 6.45162,
+            "price": 35,
+            "complexity": 1.3861,
+            "min_age": 8,
+            "min_players": 8,
+            "max_players": 24,
+            "playing_time": 60,
+            "max_playing_time": 60,
+            "description": "Werewolf (also known as Mafia) takes place in a small town where a minority of the townsfolk hold a dangerous secret.\n\nEach player is secretly assigned a role - Werewolf, Villager, or Seer (a special Villager). There is also a Moderator who controls the flow of the game.\n\nThe game alternates between night and day phases. At night, the Werewolves secretly choose a Villager to kill. Also, the Seer (if still alive) asks whether another player is a Werewolf or not. During the day, the Villager who was killed is revealed and is out of the game. The remaining Villagers then vote on the player they suspect is a Werewolf. That player reveals his/her role and is out of the game.\n\nWerewolves win when there are an equal number of Villagers and Werewolves. Villagers win when they have killed all Werewolves. Werewolf is a social game that requires no equipment to play, and can accommodate almost any large group of players.\n\n",
+            "image_url": "https://cf.geekdo-images.com/dbKLvMw--0rTKU5ShvZ79A__original/img/gxN0VrgnvVXk-Epp8F8nhpzhzvA=/0x0/filters:format(jpeg)/pic2453810.jpg",
+            "image": "pic2453810.jpg",
+            "thumbnail": "https://cf.geekdo-images.com/dbKLvMw--0rTKU5ShvZ79A__thumb/img/yEhvq77CKOzj6MPQzoHcw-sQF1Y=/fit-in/200x150/filters:strip_icc()/pic2453810.jpg",
+            "category": 4
+        }
+    },
+    {
+        "model":"products.Product",
+        "fields":
+        {
+            "name": "Trash Pandas",
+            "year": 2017,
+            "rating": 6.53937,
+            "price": 25,
+            "complexity": 1.4231,
+            "min_age": 8,
+            "min_players": 2,
+            "max_players": 4,
+            "playing_time": 20,
+            "max_playing_time": 20,
+            "description": "In Trash Pandas, players are raucous raccoons, tipping over trash cans for food (and shiny objects). Players push their luck to acquire more cards, but must stash them in order for them to count as points at the end of the game. When the deck runs out, the game ends and players compare their stashes to see who has the majority for each card type and score points accordingly.  The player with the most points wins!\n\nIn more detail, on a turn the active player rolls a die in the hope of gaining the benefit of the roll result. With each roll, the player decides to keep rolling or stop and activate the dice results. However, with each additional roll, the odds of busting (getting a duplicate result) increase further and the player risks losing the progress they've made that round. When activating the dice results, the player will draw cards, steal cards from other players, and stash cards. Cards in hand may be used for their listed ability, but they count as points only when stashed.\n\n—description from the publisher\n\n",
+            "image_url": "https://cf.geekdo-images.com/y4ysd5L5XvfUysv7gkIbdg__original/img/bkxrMNyahRh4pqR2Jj6tgk4rdTU=/0x0/filters:format(jpeg)/pic3989423.jpg",
+            "image": "pic3989423.jpg",
+            "thumbnail": "https://cf.geekdo-images.com/y4ysd5L5XvfUysv7gkIbdg__thumb/img/7zg5-sdRuVXYS3MB8wyHm40S2to=/fit-in/200x150/filters:strip_icc()/pic3989423.jpg",
+            "category": 2
+        }
+    },
+    {
+        "model":"products.Product",
+        "fields":
+        {
+            "name": "Cinco Linko",
+            "year": 2016,
+            "rating": 6.55828,
+            "price": 20,
+            "complexity": 1.15,
+            "min_age": 8,
+            "min_players": 2,
+            "max_players": 4,
+            "playing_time": 15,
+            "max_playing_time": 15,
+            "description": "With nothing but four stacks of colored tiles, it's no wonder why Cinco Linko — a.k.a. OK Play — is regarded as the world's easiest to understand game. Don't let that fool you though - whilst this game takes minutes to learn, it takes ages to master. The rules are simple: using your stack of tiles, you try to make a line of five before any of your opponents can. Each tile must line up with the flat side of another (no placing corners on corners) and your line of five can go orthogonally or diagonally. If you manage to use all of your tiles and there's still no winner, you can reposition them one at a time. Whether you're from Albania or Zambia, speaking in Urdu or Zulu or playing against a rabbi or a Jedi, OK Play can go anywhere and be played by anyone, with anyone (even if you can't understand a word the other person is saying).\n\n—description from the publisher\n\n",
+            "image_url": "https://cf.geekdo-images.com/_HFgArmNSGX_KhEjmZzl_w__original/img/mWr5MdJMOoYvmizDwAC6rBvhDXU=/0x0/filters:format(png)/pic4404566.png",
+            "image": "pic4404566.png",
+            "thumbnail": "https://cf.geekdo-images.com/_HFgArmNSGX_KhEjmZzl_w__thumb/img/ae7uS0ZGTTmSI_0R0Jd5iZ5Dilc=/fit-in/200x150/filters:strip_icc()/pic4404566.png",
+            "category": 1
+        }
+    },
+    {
+        "model":"products.Product",
+        "fields":
+        {
+            "name": "Anomia",
+            "year": 2010,
+            "rating": 6.6914,
+            "price": 18.5,
+            "complexity": 1.0395,
+            "min_age": 10,
+            "min_players": 3,
+            "max_players": 6,
+            "playing_time": 30,
+            "max_playing_time": 30,
+            "description": "Anomia plays off the fact that our minds are positively brimming with all sorts of random information: things to eat, pop songs, websites, etc... Sure, under normal circumstances, it's easy to give an example of a frozen food or a dog breed, but you'll find that your brain works a little differently under pressure!\n\nTo play, draw and reveal a card from the center pile. Does the symbol on your card match one on another player's card? If so, you must quickly face-off with the other player by giving an example of the person, place, or thing on their card before they can do the same for yours. If you blurt out a correct answer first, you win their card and the drawing continues.\n\nSounds simple, right? Wrong! Wild cards allow non-matching symbols to match, increasing the number of things to which you must pay attention. Cascading face-offs can occur when you hand over a lost card, thereby revealing a new top card on your play pile.\n\n",
+            "image_url": "https://cf.geekdo-images.com/OvOpd-Lhl7t3h9fF_qi6lQ__original/img/0_8ukg1eYy8HxXTAwPgKptJXTeU=/0x0/filters:format(jpeg)/pic2527529.jpg",
+            "image": "pic2527529.jpg",
+            "thumbnail": "https://cf.geekdo-images.com/OvOpd-Lhl7t3h9fF_qi6lQ__thumb/img/002NO49Pl3-9dPUj43StWt0SS2c=/fit-in/200x150/filters:strip_icc()/pic2527529.jpg",
+            "category": 4
+        }
+    },
+    {
+        "model":"products.Product",
+        "fields":
+        {
+            "name": "Gloomhaven",
+            "year": 2017,
+            "rating": 8.56802,
+            "price": 160,
+            "complexity": 3.9139,
+            "min_age": 14,
+            "min_players": 1,
+            "max_players": 4,
+            "playing_time": 120,
+            "max_playing_time": 120,
+            "description": "Gloomhaven  is a game of Euro-inspired tactical combat in a persistent world of shifting motives. Players will take on the roles of wandering adventurers with their own special sets of skills and their own reasons for traveling to this dark corner of the world. Players must work together out of necessity to clear out menacing dungeons and forgotten ruins. In the process, they will enhance their abilities with experience and loot, discover new locations to explore and plunder, and expand an ever-branching story fueled by the decisions they make.\n This is a game with a persistent and changing world that is ideally played over many game sessions. After a scenario, players will make decisions about what to do next, which will determine how the story continues, kind of like a \u201cChoose Your Own Adventure\u201d book. Playing through a scenario is a co-operative affair where players will fight against automated monsters using an innovative card system to determine the order of play and what a player does on their turn.\n\nEach turn, a player chooses two cards to play out of their hand. The number on the top card determines their initiative for the round. Each card also has a top and bottom power, and when it is a player\u2019s turn in the initiative order, they determine whether to use the top power of one card and the bottom power of the other, or vice-versa. Players must be careful, though, because over time they will permanently lose cards from their hands. If they take too long to clear a dungeon, they may end up exhausted and be forced to retreat.\n\n",
+            "image_url": "https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__original/img/7d-lj5Gd1e8PFnD97LYFah2c45M=/0x0/filters:format(jpeg)/pic2437871.jpg",
+            "image": "pic2437871.jpg",
+            "thumbnail": "https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__thumb/img/veqFeP4d_3zNhFc3GNBkV95rBEQ=/fit-in/200x150/filters:strip_icc()/pic2437871.jpg",
+            "category": 5
+        }
+    },
+    {
+        "model":"products.Product",
+        "fields":
+        {
+            "name": "Spot it!",
+            "year": 2009,
+            "rating": 6.54422,
+            "price": 22,
+            "complexity": 1.0398,
+            "min_age": 7,
+            "min_players": 2,
+            "max_players": 8,
+            "playing_time": 15,
+            "max_playing_time": 15,
+            "description": "Spot it!, a.k.a. Dobble, is a simple pattern recognition game in which players try to find an image shown on two cards.\n\nEach card in original Spot it! features eight different symbols, with the symbols varying in size from one card to the next. Any two cards have exactly one symbol in common. For the basic Spot it! game, reveal one card, then another. Whoever spots the symbol in common on both cards claims the first card, then another card is revealed for players to search, and so on. Whoever has collected the most cards when the 55-card deck runs out wins!\n\nRules for different games – each an observation game with a speed element – are included with Spot it!, with the first player to find a match either gaining or getting rid of a card. Multiple versions of Spot it! have been published, with images in each version ranging from Halloween to hockey to baseball to San Francisco.\n\nThe game is sold as Spot it! in the USA and Dobble in Europe, with slight differences between the two editions.\n\nNote: some versions have fewer cards and fewer symbols per card. (E.g. 30 cards with 6 symbols each.): Spot it! 1,2,3\n\n",
+            "image_url": "https://cf.geekdo-images.com/AKdJV9CBlZBxH87EAfZ85A__original/img/2BeL9tYtJJDz7KDv0qpbrmVXWkk=/0x0/filters:format(jpeg)/pic7807049.jpg",
+            "image": "pic7807049.jpg",
+            "thumbnail": "https://cf.geekdo-images.com/AKdJV9CBlZBxH87EAfZ85A__thumb/img/MMvB9deDa-BgXcwyWIUsKleqbbU=/fit-in/200x150/filters:strip_icc()/pic7807049.jpg",
+            "category": 4
+        }
+    },
+    {
+        "model":"products.Product",
+        "fields":
+        {
+            "name": "Lost Cities",
+            "year": 1999,
+            "rating": 7.2494,
+            "price": 50,
+            "complexity": 1.4757,
+            "min_age": 10,
+            "min_players": 2,
+            "max_players": 2,
+            "playing_time": 30,
+            "max_playing_time": 30,
+            "description": "Lost Cities is a card game in the Kosmos two-player series. The game originally consisted of a single deck of cards of rank 2–10 in five different colors with three special \"handshakes\" (\"HS\" in scoring examples below) in each suit, but as of 2019 the game now includes six colored suits, with the sixth color being optional for gameplay. A game board is included to organize discarded cards and help players organize their card collections.\n\nThe object of the game is to gain points by mounting profitable archaeological expeditions to the different sites represented by the colored suits of cards. On a player's turn, they must first play one card, either to an expedition or by discarding it to the color-appropriate discard pile, then draw one card, either from the deck or from the top of a discard pile. Cards played to expeditions must be in ascending order, but they need not be consecutive. Handshakes are considered lower than a 2 and represent investments in an expedition. Thus, if you play a red 4, you may play any other red card higher than a 4 on a future turn but may no longer play a handshake, the 2, or the 3.\n\nThe game continues in this fashion with players alternating turns until the final card is taken from the deck. The rest of the cards in hand are then discarded and players score their expeditions. Each expedition that has at least one card played into it must be scored. Cards played into an expedition are worth their rank in points, and handshakes count as a multiplier against your final total; one handshake doubles an expedition's value, while two handshakes triples that value and three handshakes quadruple it. Expeditions start at a value of -20, so you must play at least 20 points of cards into an expedition in order to make a profit. If you are left with a negative value and have a handshake, the multiplier still applies. A 20-point bonus is awarded to every expedition with at least eight cards played into it. A complete game of Lost Cities lasts three matches, with scores for each match being added together.\n\nScoring example 1: An expedition has a 2,3,7,8,10 for a total of 30. This expedition is worth 10 total points: 30 plus the initial -20.\n\nScoring example 2: An expedition has 2 HS, and 4,5,6,7,8,10 for a total of 40. This expedition is worth 80 total points: 40 points for cards, plus the initial -20, ×3 for the two multipliers, plus the 20-pt bonus for playing 8+ cards.\n\nScoring example 3: An expedition has 1 HS, and 4,6,7 for a total of 17. This expedition is worth -6 total points: 17 plus the initial -20, ×2 for the multiplier.\n\n",
+            "image_url": "https://cf.geekdo-images.com/AL5D-dXabY-Lk3PqIFk_0g__original/img/PdGBQ7xc0GA9ndKnnInx_sQwvl4=/0x0/filters:format(jpeg)/pic4597095.jpg",
+            "image": "pic4597095.jpg",
+            "thumbnail": "https://cf.geekdo-images.com/AL5D-dXabY-Lk3PqIFk_0g__thumb/img/Q-76aN92M3OveMp26t7b0i7V-i4=/fit-in/200x150/filters:strip_icc()/pic4597095.jpg",
+            "category": 2
+        }
+    },
+    {
+        "model":"products.Product",
+        "fields":
+        {
+            "name": "Forbidden Island",
+            "year": 2010,
+            "rating": 6.75525,
+            "price": 20,
+            "complexity": 1.7381,
+            "min_age": 10,
+            "min_players": 2,
+            "max_players": 4,
+            "playing_time": 30,
+            "max_playing_time": 30,
+            "description": "Forbidden Island is a visually stunning cooperative board game. Instead of winning by competing with other players like most games, everyone must work together to win the game. Players take turns moving their pawns around the 'island', which is built by arranging the many beautifully screen-printed tiles before play begins. As the game progresses, more and more island tiles sink, becoming unavailable, and the pace increases. Players use strategies to keep the island from sinking, while trying to collect treasures and items. As the water level rises, it gets more difficult- sacrifices must be made.\n\nWhat causes this game to truly stand out among co-op and competitive games alike is the extreme detail that has been paid to the physical components of the game. It comes in a sturdy and organized tin of good shelf storage size. The plastic treasure pieces and wooden pawns are well crafted and they fit just right into the box. The cards are durable, well printed, and easy to understand. The island tiles are the real gem: they are screen-printed with vibrant colors, each with a unique and pleasing image.\n\nWith multiple levels of difficulty, different characters to choose from (each with a special ability of their own), many optional island formats and game variations available, Forbidden Island has huge replay value. The game can be played by as few as two players and up to four (though it can accommodate five). More players translates into a faster and more difficult game, though the extra help can make all the difference. This is a fun game, tricky for players of almost any age. Selling for under twenty dollars, oddly, Forbidden Island is a rare game of both quality and affordable price.\n For those who enjoy Forbidden Island, a follow-up project by Gamewright titled Forbidden Desert was released in 2013.\n\nFrom the publisher's website:\n\nDare to discover Forbidden Island! Join a team of fearless adventurers on a do-or-die mission to capture four sacred treasures from the ruins of this perilous paradise. Your team will have to work together and make some pulse-pounding maneuvers, as the island will sink beneath every step! Race to collect the treasures and make a triumphant escape before you are swallowed into the watery abyss!\n\n",
+            "image_url": "https://cf.geekdo-images.com/JgAkEBUaiHOsOS94iRMs2w__original/img/H5d4I5z_HSpPEu7EAl0DqLt9_pM=/0x0/filters:format(jpeg)/pic646458.jpg",
+            "image": "pic646458.jpg",
+            "thumbnail": "https://cf.geekdo-images.com/JgAkEBUaiHOsOS94iRMs2w__thumb/img/5aPR8-KMbgucI_XkPE2PJaMQQsg=/fit-in/200x150/filters:strip_icc()/pic646458.jpg",
+            "category": 5
+        }
+    }
+  ]
