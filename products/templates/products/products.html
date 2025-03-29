@@ -25,25 +25,23 @@
                         <div class="col-sm-6 col-md-6 col-lg-3 mb-5">
                             <div class="card h-100">
                                 {% if product.image %}
-                                <a href="">
+                                <a href="{% url 'product_detail' product.id %}">
                                     <img class="card-img-top game-img-size" src="{{ product.image.url }}" alt="{{ product.name }}">
                                 </a>
                                 {% else %}
-                                <a href="">
+                                <a href="{% url 'product_detail' product.id %}">
                                     <img class="card-img-top" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
                                 </a>
                                 {% endif %}
                                 <div class="card-body pb-0">
                                     <h5 class="card-title">{{ product.name }}</h5>
-                                    <div class="mb-2">
+                                    <div class="mb-2">                     
                                         <span class="badge badge-players me-2">
-                                            <span class="badge badge-players me-2">
-                                                {% if product.min_players == product.max_players or product.max_players == 0  %}
-                                                    {{ product.min_players }} player{{ product.min_players|pluralize }}
-                                                {% else %}
-                                                    {{ product.min_players }} - {{ product.max_players }} players
-                                                {% endif %}
-                                            </span>
+                                            {% if product.min_players == product.max_players or product.max_players == 0  %}
+                                                {{ product.min_players }} player{{ product.min_players|pluralize }}
+                                            {% else %}
+                                                {{ product.min_players }} - {{ product.max_players }} players
+                                            {% endif %}
                                         </span>
                                         <span class="badge badge-age">Ages {{ product.min_age }}+</span>
                                     </div>
