@@ -13,15 +13,16 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="games-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Categories
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">Road Trip Games</a>
-                <a href="" class="dropdown-item ">Airplane Games</a>
-                <a href="" class="dropdown-item ">Camping Games</a>
-                <a href="" class="dropdown-item ">Hotel Room Games</a>
-                <a href="" class="dropdown-item">All Games</a>
+            <div class="dropdown-menu border-0" aria-labelledby="games-link">
+                <a href="{% url 'products' %}?category=abstract_strategy" class="dropdown-item">Abstract & Strategy</a>
+                <a href="{% url 'products' %}?category=card_game" class="dropdown-item ">Card</a>
+                <a href="{% url 'products' %}?category=dice" class="dropdown-item ">Dice</a>
+                <a href="{% url 'products' %}?category=party_game" class="dropdown-item ">Party</a>
+                <a href="{% url 'products' %}?category=adventure" class="dropdown-item ">Adventure</a>
+                <a href="{% url 'products' %}?category=abstract_strategy,card_game,dice,party_game,adventure" class="dropdown-item">All Games</a>
             </div>
         </li>
 
@@ -30,36 +31,36 @@
                 Play Time
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="playtime-link">
-                <a href="" class="dropdown-item">Quick (5-10 min)</a>
-                <a href="" class="dropdown-item">Medium (15-30 min)</a>
-                <a href="" class="dropdown-item">Extended (30+ min)</a>
-                <a href="" class="dropdown-item">All Playtime Games</a>
+                <a href="{% url 'products' %}?playtime=quick" class="dropdown-item">Quick (0 - 30 min)</a>
+                <a href="{% url 'products' %}?playtime=medium" class="dropdown-item">Medium (31 - 60 min)</a>
+                <a href="{% url 'products' %}?playtime=long" class="dropdown-item">Long (60 - 120 min)</a>
+                <a href="{% url 'products' %}" class="dropdown-item">All Playtime Games</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="player-count-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Player Count
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Solo</a>
-                <a href="" class="dropdown-item">2 Players</a>
-                <a href="" class="dropdown-item">3-4 Players</a>
-                <a href="" class="dropdown-item">5+ Players</a>
-                <a href="" class="dropdown-item">All Players Count</a>
+            <div class="dropdown-menu border-0" aria-labelledby="player-count-link">
+                <a href="{% url 'products' %}?playercount=solo" class="dropdown-item">Solo</a>
+                <a href="{% url 'products' %}?playercount=duo" class="dropdown-item">2 Players</a>
+                <a href="{% url 'products' %}?playercount=trio" class="dropdown-item">3-4 Players</a>
+                <a href="{% url 'products' %}?playercount=penta" class="dropdown-item">5+ Players</a>
+                <a href="{% url 'products' %}" class="dropdown-item">All Players Count</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="player-age-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Age Range
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Kids (3-7)</a>
-                <a href="" class="dropdown-item">Children (8-12)</a>
-                <a href="" class="dropdown-item">Teens (13-17)</a>
-                <a href="" class="dropdown-item">Adults (18+)</a>
-                <a href="" class="dropdown-item">All Ages</a>
+            <div class="dropdown-menu border-0" aria-labelledby="player-age-link">
+                <a href="{% url 'products' %}?age=kids" class="dropdown-item">Kids (3-7)</a>
+                <a href="{% url 'products' %}?age=children" class="dropdown-item">Children (8-12)</a>
+                <a href="{% url 'products' %}?age=teens" class="dropdown-item">Teens (13-17)</a>
+                <a href="{% url 'products' %}?age=adults" class="dropdown-item">Adults (18+)</a>
+                <a href="{% url 'products' %}" class="dropdown-item">All Ages</a>
             </div>
         </li>
 
