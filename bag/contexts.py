@@ -1,6 +1,6 @@
 from decimal import Decimal
 from django.conf import settings
-from products.models import Product  # Replace 'your_app' with the actual app name where Product is defined
+from products.models import Product
 from django.shortcuts import get_object_or_404
 
 
