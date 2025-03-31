@@ -118,6 +118,17 @@ h2 strong {
     text-decoration: none;
 }
 
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.btt-link {
+    cursor: pointer;
+}
+
 /* Product cards */
 .card {
     transition: all 0.3s ease-in-out;
