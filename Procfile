@@ -1,1 +1,1 @@
-web: gunicorn traveltabletop.wsgi:application
+web: gunicorn TravelTableTop.wsgi:application
