@@ -29,7 +29,11 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True if os.path.isfile('env.py') else False
 
-ALLOWED_HOSTS = ['travel-table-top-6a0c25007929.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = [
+    'travel-table-top-6a0c25007929.herokuapp.com',
+    'localhost',
+    '127.0.0.1',
+]
 
 
 # Application definition
@@ -49,6 +53,9 @@ INSTALLED_APPS = [
     'products',
     'bag',
     'checkout',
+
+    # other
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -62,6 +69,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'TravelTableTop.urls'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 TEMPLATES = [
     {
@@ -78,8 +87,13 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.media',
                 'bag.contexts.bag_contents',
             ],
+            'builtins': [
+                'crispy_forms.templatetags.crispy_forms_tags',
+                'crispy_forms.templatetags.crispy_forms_field',
+            ]
         },
     },
 ]
