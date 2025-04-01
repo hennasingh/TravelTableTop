@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True if os.path.isfile('env.py') else False
 
-ALLOWED_HOSTS = ['travel-table-top-6a0c25007929.herokuapp.com/']
+ALLOWED_HOSTS = ['travel-table-top-6a0c25007929.herokuapp.com', 'localhost']
 
 
 # Application definition
