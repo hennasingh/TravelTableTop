@@ -37,7 +37,7 @@
                         </a>
                     </p>
                     {% endif %}
-                    <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
+                    <p class="lead mb-0 text-left font-weight-bold">€ {{ product.price }}</p>
                     {% if product.rating %}
                         <div class="rating mt-2">
                             <span class="text-muted"><i class="fas fa-star mr-1 text-warning"></i>{{ product.rating|floatformat:1 }} / 10</span>
@@ -98,7 +98,7 @@
                                     </span>
                                     <span class="text-uppercase">Keep Shopping</span>
                                 </a>
-                                <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5" value="Add to Bag">
+                                <input type="submit" class="btn btn-maroon text-white rounded-0 text-uppercase mt-5" value="Add to Bag">
                             </div>
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
                         </div>
