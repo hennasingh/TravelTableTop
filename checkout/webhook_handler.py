@@ -29,14 +29,12 @@ class StripeWH_Handler:
         intent = event.data.object
         pid = intent.id
         bag = intent.metadata.bag
-        save_info = intent.metadata.save_info
 
         # Get the Charge object
         stripe_charge = stripe.Charge.retrieve(
             intent.latest_charge
         )
 
-        billing_details = stripe_charge.billing_details
         shipping_details = intent.shipping
         grand_total = round(stripe_charge.amount / 100, 2)
 
@@ -103,8 +101,10 @@ class StripeWH_Handler:
                 if order:
                     order.delete()
                     return HttpResponse(
-                        content=f'Webhook received: {event["type"]} | ERROR: {e}',
-                        status=500)
+                        content=(
+                            f'Webhook received: {event["type"]} | '
+                            f'ERROR: {e}'
+                        ), status=500)
 
         return HttpResponse(
             content=(
