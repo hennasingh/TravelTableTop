@@ -27,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True if os.path.isfile('env.py') else False
+DEBUG = os.environ.get('DEBUG')
 
 ALLOWED_HOSTS = [
     'travel-table-top-6a0c25007929.herokuapp.com',
