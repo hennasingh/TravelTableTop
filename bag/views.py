@@ -43,9 +43,12 @@ def adjust_bag(request, item_id):
     bag = request.session.get('bag', {})
 
     if quantity > 0:
-        bag[item_id] = quantity
-        messages.success(
-            request, f'Updated {product.name} quantity to {bag[item_id]}')
+        if quantity <= 99:
+            bag[item_id] = quantity
+            messages.success(
+                request, f'Updated {product.name} quantity to {bag[item_id]}')
+        else:
+            messages.error(request, 'Maximum quantity is 99')
     else:
         bag.pop(item_id)
         messages.success(request, f'Removed {product.name} from your bag.')
