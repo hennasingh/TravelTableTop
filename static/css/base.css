@@ -7,7 +7,7 @@ body {
     font-family: 'Lato';
 }
 
-#hero-section {
+.hero-section {
     /* The image used from Pexels.com*/
     background: linear-gradient(rgba(38, 70, 83, 0.7), rgba(38, 70, 83, 0.4)), url('/media/travel-games.webp') no-repeat center center fixed;
     background-size: cover;
