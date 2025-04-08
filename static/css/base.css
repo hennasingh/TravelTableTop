@@ -336,6 +336,12 @@ input[name='q']::placeholder {
     color: #4a4a4a;
 }
 
+footer {
+    background-color: #cc5e39;
+    color: #fff
+    
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
