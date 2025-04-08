@@ -339,10 +339,80 @@ input[name='q']::placeholder {
 footer {
     background-color: #cc5e39;
     color: #fff
-    
+
 }
 
-/* -------------------------------- Media Queries */
+/* Footer Styles */
+.footer {
+    margin-top: 3rem;
+    padding: 3rem 0;
+}
+
+.footer .social-links {
+    margin-bottom: 2rem;
+}
+
+.footer .social-links a {
+    transition: color 0.3s ease;
+}
+
+.footer .social-links a:hover {
+    color: #17a2b8 !important;
+}
+
+/* ---------------------------------- Newsletter Form */
+#mc_embed_signup {
+    background: transparent !important;
+    font: inherit !important;
+    width: 100%;
+    padding: 0;
+}
+
+#mc_embed_signup .mc-field-group {
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+#mc_embed_signup .mc-field-group input {
+    border: 1px solid #495057;
+    border-radius: 4px;
+    width: 100%;
+}
+
+#mc_embed_signup .button {
+    background-color: #cc5e39 !important;
+    border-color: #cc5e39;
+    color: white !important;
+    transition: all 0.3s ease;
+    font-size: 1rem !important;
+    height: auto !important;
+    padding: 0.5rem 1rem !important;
+    margin: 0 !important;
+}
+
+#mc_embed_signup .button:hover {
+    background-color: #b54d2b !important;
+    border-color: #b54d2b;
+}
+
+#mc_embed_signup div.response {
+    margin: 1rem 0;
+    padding: 0.5rem;
+    font-weight: normal;
+    float: none;
+    width: 100%;
+}
+
+#mc_embed_signup div#mce-responses {
+    margin: 0;
+    padding: 0;
+}
+
+#mc_embed_signup .asterisk {
+    color: #dc3545 !important;
+}
+
+/* ---------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
