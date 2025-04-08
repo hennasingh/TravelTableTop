@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://travel-table-top-6a0c25007929.herokuapp.com/sitemap.xml

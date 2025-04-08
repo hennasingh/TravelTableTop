@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/accounts/signup/</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/accounts/login/</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/bag/</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/?sort=price&amp;direction=asc</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/?sort=rating&amp;direction=desc</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/?sort=category&amp;direction=asc</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/?category=abstract_strategy</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/?category=card_game</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/?category=dice</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/?category=party_game</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/?category=adventure</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/?category=abstract_strategy,card_game,dice,party_game,adventure</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/?playtime=quick</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/?playtime=medium</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/?playtime=long</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/?playercount=solo</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/?playercount=duo</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/?playercount=trio</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/?playercount=penta</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/?age=kids</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/?age=children</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/?age=teens</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/?age=adults</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/accounts/password/reset/</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/eb9f53ba-e625-4a05-8c82-f959a2e328bb/</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/45e6bfb3-a996-449f-9d3a-a857b3e9731f/</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/85c40f67-4486-4f53-8c74-e50ffbc50743/</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/f3df249b-f813-45f0-90d8-351f7bc72267/</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/51db835d-9258-4fc6-899f-f88147a498bd/</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/6f90fe7c-b4d0-4b3a-8ace-a4b39fd40f06/</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/8c2dcb3c-11a9-4a67-b476-4e4920dd8f5f/</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/cb0ecd66-abf7-460a-a67c-5ec74de2f706/</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/5652d17d-9029-4fd6-beab-a7361865b053/</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/db6975ce-7357-49fa-93f5-f258c2244c46/</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/f29eef60-6b11-40f6-a302-b8ef26dd2252/</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/d20adf43-5e33-4bf5-b31f-93d90303fc3a/</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/8e780156-7b15-4acd-8cfd-fb67a56d036e/</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/2618f0d1-b06b-4aea-a107-e3f51dec4ffd/</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/e4154a0b-f43b-497c-af24-29d17995574e/</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/d3b29e09-a13d-4ff2-93d4-b8c691fe4f52/</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/0acb880a-b8f7-4bb0-8e07-b153c2053cda/</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/d4645266-a39e-4db4-88f9-1c675cf19ee3/</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/957e7eb3-4cfa-4f56-99dc-de04989ac180/</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://travel-table-top-6a0c25007929.herokuapp.com/products/f161e1d5-3e52-4c68-bbad-e697e15ea627/</loc>
+  <lastmod>2025-04-07T15:58:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
