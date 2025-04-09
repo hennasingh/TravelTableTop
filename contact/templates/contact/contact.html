@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="overlay"></div>
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-6 offset-md-3">
+            <div class="allauth-form-inner-content">
+                <hr>
+                <h2 class="logo-font mb-4">Contact Us</h2>
+                <hr>
+                <p class="text-muted">Have a question or need assistance? Fill out the form below and we'll get back to
+                    you as soon as possible.</p>
+                <form method="POST" action="{% url 'contact' %}">
+                    {% csrf_token %}
+                    {{ form|crispy }}
+                    <div class="text-right mt-4">
+                        <a class="btn btn-outline-black rounded-0" href="{% url 'home' %}">
+                            <span class="icon">
+                                <i class="fas fa-chevron-left"></i>
+                            </span>
+                            <span>Home</span>
+                        </a>
+                        <button id="submit-button" class="btn btn-black rounded-0">
+                            <span>Send Message</span>
+                            <span class="icon">
+                                <i class="fas fa-paper-plane"></i>
+                            </span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
