@@ -412,6 +412,30 @@ footer {
     color: #dc3545 !important;
 }
 
+/* ---------------------------------- About Us Section */
+.about-section {
+    padding: 4rem 0;
+    margin-top: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.about-section .logo-font {
+    letter-spacing: 0.1rem;
+}
+
+.about-section .lead {
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.about-section .list-unstyled {
+    margin-bottom: 2rem;
+}
+
+.about-section .list-unstyled li {
+    margin-bottom: 1rem;
+}
+
 /* ---------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */

@@ -2,11 +2,11 @@
 {% load static %}
 
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
     </div>
+</div>
 {% endblock %}
 
 {% block content %}
@@ -20,18 +20,66 @@
         <div class="row">
             <div class="col">
                 <h4 class="py-3 text-white text-center">
-                    Discover the perfect travel companions that turn transit time into play time. Compact, engaging, and perfect for any adventure.
+                    Discover the perfect travel companions that turn transit time into play time. Compact, engaging, and
+                    perfect for any adventure.
                 </h4>
             </div>
         </div>
         <div class="row h-100">
             <div class="col text-center">
                 <h4>
-                    <a href="{% url 'products' %}" class="shop-now-button btn btn-lg text-uppercase py-3">Explore Games</a>
+                    <a href="{% url 'products' %}" class="shop-now-button btn btn-lg text-uppercase py-3">Explore
+                        Games</a>
                 </h4>
             </div>
         </div>
-       </div>
+    </div>
 </section>
 
+<!-- About Us Section -->
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8 text-center">
+            <div class="my-5">
+                <p class="lead text-black">
+                    At TravelTableTop, we're passionate about bringing the joy of board gaming to travelers and
+                    adventure enthusiasts around the world. Our unique collection combines the excitement of travel with
+                    the engaging world of board games.
+                </p>
+                <p class="lead text-black">
+                    Founded by board game enthusiasts who love to travel, TravelTableTop specializes in compact,
+                    travel-friendly board games that are perfect for your adventures. Whether you're camping in the
+                    wilderness, relaxing at a beach resort, or staying in a mountain cabin, we have the perfect game to
+                    enhance your travel experience.
+                </p>
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <h4 class="logo-font mb-4">What We Offer</h4>
+                        <ul class="list-unstyled text-start">
+                            <li class="lead mb-2"><i class="fas fa-check text-success me-2"></i> Portable and compact
+                                games</li>
+                            <li class="lead mb-2"><i class="fas fa-check text-success me-2"></i> Family-friendly options
+                            </li>
+                            <li class="lead mb-2"><i class="fas fa-check text-success me-2"></i> Quick-to-learn travel
+                                games</li>
+                            <li class="lead mb-2"><i class="fas fa-check text-success me-2"></i> Durable designs for
+                                on-the-go gaming</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="logo-font mb-4">Why Choose Us</h4>
+                        <ul class="list-unstyled text-start">
+                            <li class="lead mb-2"><i class="fas fa-star text-warning me-2"></i> Curated selection</li>
+                            <li class="lead mb-2"><i class="fas fa-star text-warning me-2"></i> Travel-optimized games
+                            </li>
+                            <li class="lead mb-2"><i class="fas fa-star text-warning me-2"></i> Quality assurance</li>
+                            <li class="lead mb-2"><i class="fas fa-star text-warning me-2"></i> Expert recommendations
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}
