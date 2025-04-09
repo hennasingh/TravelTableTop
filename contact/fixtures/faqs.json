@@ -1,0 +1,58 @@
+[
+    {
+      "model": "contact.faq",
+      "pk": 1,
+      "fields": {
+        "question": "What are travel games and why should I buy them?",
+        "answer": "Travel games are compact, portable games specifically designed for playing while traveling. They're perfect for keeping everyone entertained during long journeys, hotel stays, or beach days, and help create memorable experiences during your trips."
+      }
+    },
+    {
+      "model": "contact.faq",
+      "pk": 2,
+      "fields": {
+        "question": "How do I know which travel game is right for my trip?",
+        "answer": "Consider your travel destination (beach, airplane, road trip, hotel), the number of players, age range of participants, and how much time you'll have to play. Our category filters make it easy to find the perfect match for your specific travel needs."
+      }
+    },
+    {
+      "model": "contact.faq",
+      "pk": 3,
+      "fields": {
+        "question": "Do you ship internationally? How long will shipping take?",
+        "answer": "Yes, we ship to most countries worldwide. Domestic shipping typically takes 3-5 business days, while international shipping ranges from 7-14 business days depending on the destination."
+      }
+    },
+    {
+      "model": "contact.faq",
+      "pk": 4,
+      "fields": {
+        "question": "What is your return policy?",
+        "answer": "We offer a 10-day satisfaction guarantee. If you're not completely satisfied with your purchase, you can return unopened items in their original packaging for a full refund or exchange. Please note that shipping costs for returns are the responsibility of the customer unless the item is defective."
+      }
+    },
+    {
+      "model": "contact.faq",
+      "pk": 5,
+      "fields": {
+        "question": "Are the games really compact enough for travel?",
+        "answer": "Travel games are specifically designed to save space. Most games come in pocket-sized, portable formats that easily fit in a backpack, purse, or even your pocket"
+      }
+    },
+    {
+      "model": "contact.faq",
+      "pk": 6,
+      "fields": {
+        "question": "How can I find games suitable for young children?",
+        "answer": "Use our age filter to find games appropriate for different age groups. We have games suitable for children as young as 4 years old. Look for our \"Family Friendly\" tag for games that can be enjoyed by players of various ages and skill levels."
+      }
+    },
+    {
+      "model": "contact.faq",
+      "pk": 7,
+      "fields": {
+        "question": "Do you offer discounts for bulk purchases or travel groups?",
+        "answer": "Yes! We offer free delivery for purchases above 50 euros. Travel groups, schools, or organizations planning group trips can contact our customer service team for special pricing options on bulk orders."
+      }
+    }
+  ]

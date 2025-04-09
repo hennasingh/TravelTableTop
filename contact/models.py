@@ -1,5 +1,4 @@
 from django.db import models
-from django.shortcuts import reverse
 
 from django.utils import timezone
 
@@ -28,3 +27,11 @@ class Contact(models.Model):
 
     def __str__(self):
         return self.email
+
+
+class Faq(models.Model):
+    question = models.TextField()
+    answer = models.TextField()
+
+    def __str__(self):
+        return self.question

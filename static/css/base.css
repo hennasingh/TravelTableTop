@@ -460,6 +460,42 @@ footer {
     }
 }
 
+/* ---------------------------------- FAQ Accordion Styles */
+.accordion .card {
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.accordion .card-header button {
+    color: #cc5e39;
+    font-weight: 600;
+}
+
+.accordion .card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.accordion .card-header button:hover {
+    color: #b54d2b !important;
+}
+
+.accordion .card-header button:focus {
+    box-shadow: none;
+}
+
+.accordion .card-header button .fa-chevron-down {
+    transition: transform 0.3s ease;
+}
+
+.accordion .card-header button[aria-expanded="true"] .fa-chevron-down {
+    transform: rotate(180deg);
+}
+
+.accordion .card-body {
+    color: #555;
+    line-height: 1.6;
+}
+
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {

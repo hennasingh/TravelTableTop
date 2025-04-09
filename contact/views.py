@@ -5,6 +5,7 @@ from django.core.mail import send_mail
 from django.template.loader import render_to_string
 
 from .forms import ContactForm
+from .models import Faq
 
 
 def contact(request):
@@ -55,8 +56,12 @@ def contact(request):
         form = ContactForm(initial=initial_data)
 
     template = 'contact/contact.html'
+    # Get all FAQs
+    faqs = Faq.objects.all()
+
     context = {
         'form': form,
+        'faqs': faqs,
     }
 
     return render(request, template, context)
