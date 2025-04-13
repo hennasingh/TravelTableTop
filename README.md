@@ -89,11 +89,106 @@ The structure of user-story issue consisted of user story, acceptance criteria, 
 
 ![User Story template](./assets_readme/userStory.png)
 
+## Site Features
+
+## Future Implementations
+
+1. I would like to add more varity of games and specific to travel medium :road, airplane, train.
+2. I would like to add review model so that users can review their experience of playing the game.
+3. I would like to add wishlist model so users can save list of games.
+4. I would like to add a separate nav view for new games and special offers. 
+5. I would like to add subscription fetaure where users that subscribe can both sell and buy games from the platform.
+6. I would like to customize admin dashboard where admin can see a record of sales, inventory count and most bought games from
+the platform
+
+## Tools and Technologies used
+
+- HTML used for the main site content.
+- CSS used for the main site design and layout.
+- JavaScript used for user interaction on the site.
+- Python used as the back-end programming language.
+- Git used for version control. (git add, git commit, git push)
+- GitHub used for secure online code storage.
+- Bootstrap used as the front-end CSS framework for modern responsiveness and pre-built components.
+- Django used as the Python framework for the site.
+- PostgreSQL used as the relational database management.
+- Neon used as the Postgres database.
+- Psycopg2 used as a PostgreSQL database adapter
+- Heroku used for hosting the deployed back-end site.
+- Stripe used for online secure payments of ecommerce products/services.
+- AWS S3 used for online static file storage.
+- Allauth used as the user authentication system
+- Pillow used as the Python framework for the site.
+- Gunicorn used for WSGI server
+- Crispy Forms used for auto-formatting of front-end forms
+
+## Ecommerce Business Model
+
+This site sells goods to customers, therefore follows a `Business to Customer` model. It is a simplest B2C forms, as it includes
+one time payment, and doesn't need anything such as monthly/annual subscriptions.
+
+It is a basic MVP site, with a newsletter and, facebook marketing page.
+
+Promoting on social media can build a community of users around the business, and boost site visitor numbers, especially when using larger platforms such a Facebook.
+
+A newsletter list can be used by the business to send regular messages to site users. For example, what items are on special offer, new items in stock, updates to business hours, notifications of events, and much more!
+
+## Seach Engine Optimization (SEO) & Social Media Marketing
+
+### Keywords
+
+I identified some appropriate keywords that aligns with my site and when users search for travel games, the website
+should appear in the search engine results. These included 2 kinds of keywords:
+
+- Short-tail keywords
+- Long-tail keywords#
+
+I played around with [Word Tracker](https://www.wordtracker.com/) to check the frequency of some of my site's primary keywords and also turned the process of searching for keywords into an SEO article.
 
 
+![work tracker results](./assets_readme/wordTracker.png)
 
+### Sitemap
 
+I'have used [XML-Sitemaps](https://www.xml-sitemaps.com/) to generate a sitemap.xml file. This was generated using my deployed site URL: https://travel-table-top-6a0c25007929.herokuapp.com/
 
+After it finished crawling the entire site, it created a [sitemap.xml](https://github.com/hennasingh/TravelTableTop/blob/main/sitemap.xml) which I've downloaded and included in the repository.
 
+### Robots
+
+I've created the [robots.txt](https://github.com/hennasingh/TravelTableTop/blob/main/robots.txt) file at the root-level. Inside, I've added the default settings:
+
+```
+User-agent: *
+Disallow:
+Sitemap: https://travel-table-top-6a0c25007929.herokuapp.com/sitemap.xml
+```
+
+#### Further links for future implementation:
+
+[Google search console](https://search.google.com/search-console)
+[Creating and submitting a sitemap](https://developers.google.com/search/docs/advanced/sitemaps/build-sitemap)
+[Managing your sitemaps and using sitemaps reports](https://support.google.com/webmasters/answer/7451001)
+[Testing the robots.txt file](https://support.google.com/webmasters/answer/6062598)
+
+### Social Media Marketing
+
+Creating a strong social base (with participation) and linking that to the business site can help drive sales. Social media platforms like Instagram, Facebook if managed properly can aid sales for the website.
+
+I created a [mock facebook page](https://www.facebook.com/traveltabletop) for traveltable top business. (A screenshot added below in case facebook block the page)
 
 ![Facebook Mock](./assets_readme/facebookMock.png)
+
+### Newsletter Marketing
+
+I embedded a newsletter sign-up form provided by mailchimp in my application, to allow users to input their email address if they are interested in learning more.
+
+![newsleeter subscription](./assets_readme/newsletterSub.png)
+
+## Testing
+
+For all testing, please refer to testing.md file
+
+## Deployment
+
+
