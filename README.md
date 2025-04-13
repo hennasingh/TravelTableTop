@@ -166,10 +166,10 @@ Sitemap: https://travel-table-top-6a0c25007929.herokuapp.com/sitemap.xml
 
 #### Further links for future implementation:
 
-[Google search console](https://search.google.com/search-console)
-[Creating and submitting a sitemap](https://developers.google.com/search/docs/advanced/sitemaps/build-sitemap)
-[Managing your sitemaps and using sitemaps reports](https://support.google.com/webmasters/answer/7451001)
-[Testing the robots.txt file](https://support.google.com/webmasters/answer/6062598)
+- [Google search console](https://search.google.com/search-console)
+- [Creating and submitting a sitemap](https://developers.google.com/search/docs/advanced/sitemaps/build-sitemap)
+- [Managing your sitemaps and using sitemaps reports](https://support.google.com/webmasters/answer/7451001)
+- [Testing the robots.txt file](https://support.google.com/webmasters/answer/6062598)
 
 ### Social Media Marketing
 
@@ -191,4 +191,181 @@ For all testing, please refer to testing.md file
 
 ## Deployment
 
+### Before Deployment
 
+To ensure the application is deployed correctly on Heroku it is mandatory to update the requirements.txt. This is a list of requirements that the application needs in order to run.
+
+To create the list of requirements we use the command `pip freeze > requirements.txt`. This will ensure the file with the requirements is updated.
+Then commit and push the changes to GitHub.
+
+! Before pushing code to GitHub ensure all credentials are in an `env.py` file, which is included in the `.gitignore` file. This tells Git not to track this file which will prevent it from being added to Github and the credentials being exposed.
+
+### Amazon AWS
+
+This project uses [AWS](https://aws.amazon.com/) to store media and static files online, due to the fact that Heroku doesn't persist this type of data.
+
+Once you've created an AWS account and logged-in, follow these series of steps to get your project connected. Make sure you're on the **AWS Management Console** page.
+
+#### S3 Bucket
+
+- Search for S3.
+- Create a new bucket, give it a name (matching your Heroku app name), and choose the region closest to you. 
+- Under Block Public Access settings unselect block all public access as the application will need access to the objects in the bucket.
+- Under **Object Ownership**, make sure to have ACLs enabled, and Bucket owner preferred selected.
+- Create S3 bucket
+
+#### Bucket Properties
+
+- Open the bucket page.
+- Go to properties tab and scroll down to website hosting and click on edit.
+- Enable static website hosting
+- Under the Hosting type section ensure Host a static website is selected.
+- Add Index.html to index document field and error.html to error document field and click save.
+
+#### Bucket Permissions
+
+- Navigate and Click on the "Permissions" tab.
+- Scroll down to the "CORS configuration" section and click edit.
+- Enter the following snippet into the text box and click on save changes.
+````
+[
+    {
+        "AllowedHeaders": [
+            "Authorization"
+        ],
+        "AllowedMethods": [
+            "GET"
+        ],
+        "AllowedOrigins": [
+            "*"
+        ],
+        "ExposeHeaders": []
+    }
+]
+````
+- Scroll to bucket policy section and click edit. Take note of the bucket arn (Example: arn:aws:s3:::test-bucket)
+- Click on policy generator and set the following settings:
+
+    - Select Type of Policy - S3 Bucket Policy
+    - Effect Allow
+    - Principal *
+    - AWS Service Amazon S3
+    - Actions: GetObject
+    - Amazon arn: your arn from the previous page
+- Click on add statement and then generate policy.Copy the policy
+- Paste the policy into the bucket policy editor.
+- Add "/*" to the end of the resource key to allow access to all resources in this bucket.
+- Navigate and Click Save changes.
+- For the Access control list (ACL) section, click edit and enable List for Everyone (public access) and accept the warning box. If the edit button is disabled, you need to change the Object Ownership section above to ACLs enabled (refer to Create Bucket section above).
+
+#### IAM (Identity Access Management)
+
+##### Create User group
+
+- In the search bar, search for IAM.
+- On the IAM page select user groups in the menu on the left.
+- Click on create user group, add a name and click create group. The users and permission policies will be added later.
+
+##### Permission policy for User group
+
+- Go to Policies in the left-hand menu and click create policy
+- Click on actions and import policy.
+- Search for "AmazonS3FullAccess", select this policy, and click "Import".
+- Click "JSON" under "Policy Document" to see the imported policy
+- Copy the bucket ARN from the bucket policy page and paste it into the "Resource" section of the JSON snippet. Be sure to remove the default value of the resource key ("") and replace it with the bucket ARN. *Copy the bucket ARN a second time into the "Resource" section of the JSON snippet. This time, add "/" to the end of the ARN to allow access to all resources in this bucket*.
+````
+ {
+ 	"Version": "2012-10-17",
+ 	"Statement": [
+ 		{
+ 			"Effect": "Allow",
+ 			"Action": "s3:*",
+ 			"Resource": [
+ 				"arn:aws:s3:::your-bucket-name",
+ 				"arn:aws:s3:::your-bucket-name/*"
+ 			]
+ 		}
+ 	]
+ }
+````
+- On the next page add polcity name and description and click create policy.
+
+##### Attach Policy to User group
+
+- Click on User Groups in the left-hand menu.
+- Click on the user group name created during the above step and select the permissions tab.
+- Click Attach Policy.
+- Search for the policy created during the above step, select it and click attach policy.
+
+##### Create User
+
+- Click on Users in the left-hand menu and click on add user.
+- Enter a User name .
+- Select Programmatic access and AWS Management Console access and click next.
+- Click on add user to group, select the user group created earlier and click create user.
+- Take note of the Access key ID and Secret access key as these will be needed to connect to the S3 bucket.
+- To save a copy of the credentials click Download .csv
+
+#### Final AWS Setup
+
+- If Heroku Config Vars has ``DISABLE_COLLECTSTATIC`` still, this can be removed now, so that AWS will handle the static files.
+- Back within S3, create a new folder called: media.
+- Select any existing media images for your project to prepare them for being uploaded into the new folder.
+- Under Manage Public Permissions, select Grant public read access to this object(s).
+- No further settings are required, so click Upload.
+
+### Stripe setup
+
+- Log in to [Stripe](https://stripe.com/en-ie)
+- From your Stripe dashboard, click to expand the "Get your test API keys".
+- You'll have two keys here:
+    - STRIPE_PUBLIC_KEY = Publishable Key (starts with pk)
+    - STRIPE_SECRET_KEY = Secret Key (starts with sk)
+
+As a backup, in case users prematurely close the purchase-order page during payment, we can include Stripe Webhooks.
+
+- From your Stripe dashboard, click Developers, and select Webhooks.
+- From there, click Add Endpoint.
+    https://your-app.herokuapp.com/checkout/wh/
+- Click receive all events.
+- Click Add Endpoint to complete the process.
+- You'll have a new key here:
+    - STRIPE_WH_SECRET = Signing Secret (Wehbook) Key (starts with wh)
+
+### Deployment on Heroku
+
+- To deploy the project on Heroku, first create an account.
+- Once logged in, create a new app by clicking on the create app button
+- Pick a unique name for the app, select a region, and click Create App.
+- On the next page select the settings tab and scroll down to Config Vars. If there are any files that should be hidden like credentials and API keys they should be added here. In this project, there are credentials that need to be protected. This project requires credentials added for:
+````
+  1. Django's secret key
+  2. Database Credentials
+  3. AWS access key 
+  3. AWS secret key
+  4. Email host password.
+  5. Stripe public key
+  6. stripe secret key
+  7. Stripe wh secret
+````
+
+- Scroll down to Buildpacks. The buildpacks will install further dependencies that are not included in the requirements.txt. For this project, the buildpack required is Python
+- From the tab above select the deploy section.
+- The deployment method for this project is GitHub. Once selected, confirm that we want to connect to GitHub, search for the repository name, and click connect to connect the Heroku app to our GitHub code.
+- Scroll further down to the deploy section where automatic deploys can be enabled, which means that the app will update every time code is pushed to GitHub. Click deploy and wait for the app to be built. Once this is done, a message should appear letting us know that the app was successfully deployed with a view button to see the app.
+
+### Creating a fork
+
+- Navigate to the [repository](https://github.com/hennasingh/TravelTableTop)
+- In the top-right corner of the page click on the fork button and select create a fork.
+- You can change the name of the fork and add description
+- Choose to copy only the main branch or all branches to the new fork.
+- Click Create a Fork. A repository should appear in your GitHub
+
+### Cloning Repository
+
+- Navigate to the [repository](https://github.com/hennasingh/TravelTableTop)
+- Click on the Code button on top of the repository and copy the link.
+- Open Git Bash and change the working directory to the location where you want the cloned directory.
+- Type git clone and then paste the link.
+- Press Enter to create your local clone.
