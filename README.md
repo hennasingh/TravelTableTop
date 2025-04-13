@@ -101,26 +101,32 @@ The structure of user-story issue consisted of user story, acceptance criteria, 
 6. I would like to customize admin dashboard where admin can see a record of sales, inventory count and most bought games from
 the platform
 
-## Tools and Technologies used
+## Tools, Technologies and Languages
 
-- HTML used for the main site content.
-- CSS used for the main site design and layout.
-- JavaScript used for user interaction on the site.
-- Python used as the back-end programming language.
-- Git used for version control. (git add, git commit, git push)
-- GitHub used for secure online code storage.
-- Bootstrap used as the front-end CSS framework for modern responsiveness and pre-built components.
-- Django used as the Python framework for the site.
-- PostgreSQL used as the relational database management.
-- Neon used as the Postgres database.
-- Psycopg2 used as a PostgreSQL database adapter
-- Heroku used for hosting the deployed back-end site.
-- Stripe used for online secure payments of ecommerce products/services.
-- AWS S3 used for online static file storage.
-- Allauth used as the user authentication system
-- Pillow used as the Python framework for the site.
-- Gunicorn used for WSGI server
-- Crispy Forms used for auto-formatting of front-end forms
+### Languages
+
+- HTML
+- CSS
+- JavaScript
+- Python
+- Django
+
+### Technologies and Programs
+
+- [Git](https://git-scm.com/) used for version control. (git add, git commit, git push)
+- [GitHub](https://github.com/) used for secure online code storage.
+- [Bootstrap](https://getbootstrap.com/) used as the front-end CSS framework for modern responsiveness and pre-built components.
+- [Django](https://www.djangoproject.com/) used as the Python framework for the site.
+- [PostgreSQL](https://www.postgresql.org/) used as the relational database management.
+- [Neon](https://neon.tech/) used as the Postgres database.
+- [Psycopg2](https://pypi.org/project/psycopg2/) used as a PostgreSQL database adapter
+- [Heroku](https://www.heroku.com/) used for hosting the deployed back-end site.
+- [Stripe](https://stripe.com/) used for online secure payments of ecommerce products/services.
+- [AWS S3](https://aws.amazon.com/s3) used for online static file storage.
+- [Allauth](https://docs.allauth.org/en/latest/) used as the user authentication system
+- [Pillow](https://pypi.org/project/Pillow/) used as the Python framework for the site.
+- [Gunicorn](https://docs.gunicorn.org/en/stable/index.html) used for WSGI server
+- [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/) used for auto-formatting of front-end forms
 
 ## Ecommerce Business Model
 
@@ -369,3 +375,28 @@ As a backup, in case users prematurely close the purchase-order page during paym
 - Open Git Bash and change the working directory to the location where you want the cloned directory.
 - Type git clone and then paste the link.
 - Press Enter to create your local clone.
+
+## Credits
+
+### Media
+
+- [Pexels](https://www.pexels.com/photo/colorful-cards-and-dice-8111264/) - Home Page Hero Image
+- [Font-Awesome](https://fontawesome.com/search?ic=free) - social media icons
+- [Coolers.co](https://coolors.co/) - for color scheme
+
+### Content 
+
+- [ChatGPT](https://chat.openai.com/) - Website Introduction
+- [Claude](https://claude.ai/new) - Website Design
+- [Board Game Geeks](https://boardgamegeek.com/geeklist/39248/bookgnomes-ultimate-travel-games-list) - Games images and details
+
+### Code 
+
+- Boutique Ado walkthrough 
+- [Windsurf](https://windsurf.com/) - for help with footer alignment, FAQa and Contact us page
+
+### Acknowledgements
+
+- Huge thank you to my mentor Spencer Barriball for all the help and resources.
+- The Code Institute facilitor Lewis and colleages
+
