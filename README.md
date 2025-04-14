@@ -56,6 +56,26 @@ Color scheme suggestions were taken from Coolers on uploading an image from pexe
 
 #### Database Schema
 
+![Database ER Diagram](./assets_readme/databaseER.png)
+
+##### Models
+
+1. User: The User model is part of Django Allauth. The model comes with predefined fields as standard. Some of them are username, email, name, password, and more. This model is used for user authentication, hence why changes directly to this model are not advisory. The User model is connected to the UserProfile model with one to one relationship.
+
+2. UserProfile: The UserProfile model is a custom model to handle the user profile details. Signals are used to reflect the changes between the User and UserProfile models.
+
+3. Category: This model was created for the purpose of defining categories for the products.
+
+4. Product: This is a custom model for storing games. It is connected to Category as a Foreign Key. Different games can have different categories. In addition it has fields for min_play time, min_age, complexity, num_players, year of publishing and more.
+
+5. Order: This model holds all the information of the user's order. It is connected to the UserProfile as a ForeignKey.
+
+6. OrderLineItem: This model is connected to the Order and Product as a ForeignKey. It is created for each item in the order.
+
+7. Contact: This is a standalone model that enables user to contact website admin.
+
+8. FAQ: This is another standalone model with questions and answers a user may have about the website.
+
 ## Agile Methodology
 
 Agile methodology was followed for building the complete site. User Stories were categorized in Epics and Milestones.
