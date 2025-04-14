@@ -30,7 +30,7 @@ class Product(models.Model):
     description = models.TextField()
     price = models.DecimalField(max_digits=6, decimal_places=2)
     rating = models.DecimalField(
-        max_digits=6, decimal_places=2, null=True, blank=True
+        max_digits=4, decimal_places=2, null=True, blank=True
     )
     complexity = models.DecimalField(
         max_digits=6, decimal_places=2, null=True, blank=True
