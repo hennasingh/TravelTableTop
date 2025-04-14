@@ -213,7 +213,7 @@ I embedded a newsletter sign-up form provided by mailchimp in my application, to
 
 ## Testing
 
-For all testing, please refer to testing.md file
+For all testing, please refer to [testing.md](./testing.md) file
 
 ## Deployment
 
