@@ -50,7 +50,7 @@
                             <p><strong>Subtotal: </strong>€ {{ item.product.price | calc_subtotal:item.quantity }}</p>
                         </div>
                         <div class="col-12 col-sm-6">
-                            {% include 'bag/quantity-form.html' %}
+                            {% with parent_classes='d-block d-md-none' %}{% include 'bag/quantity-form.html' %}{% endwith %}
                         </div>
                     </div>
                     <div class="row">
@@ -91,7 +91,7 @@
                                 <p class="my-0">€ {{ item.product.price }}</p>
                             </td>
                             <td class="py-3 w-25">
-                                {% include 'bag/quantity-form.html' %}
+                                {% with parent_classes='d-none d-md-block' %}{% include 'bag/quantity-form.html' %}{% endwith %}
                             </td>
                             <td class="py-3">
                                 <p class="my-0">€ {{ item.product.price | calc_subtotal:item.quantity }}</p>
