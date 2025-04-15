@@ -52,11 +52,17 @@
                             <div class="card h-100">
                                 {% if product.image %}
                                 <a href="{% url 'product_detail' product.id %}">
-                                    <img class="card-img-top game-img-size" src="{{ product.image.url }}" alt="{{ product.name }}">
+                                    <picture>
+                                        <source srcset="{{ product.image.url|slice:':-4' }}.webp" type="image/webp">
+                                        <img class="card-img-top game-img-size" src="{{ product.image.url }}" alt="{{ product.name }}" loading="lazy">
+                                    </picture>
                                 </a>
                                 {% else %}
                                 <a href="{% url 'product_detail' product.id %}">
-                                    <img class="card-img-top" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                                    <picture>
+                                        <source srcset="{{ MEDIA_URL }}noimage.webp" type="image/webp">
+                                        <img class="card-img-top game-img-size" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}" loading="lazy">
+                                    </picture>
                                 </a>
                                 {% endif %}
                                 <div class="card-body pb-0">

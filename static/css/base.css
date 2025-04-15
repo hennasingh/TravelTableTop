@@ -8,10 +8,35 @@ body {
 }
 
 .hero-section {
-    /* The image used from Pexels.com*/
-    background: linear-gradient(rgba(38, 70, 83, 0.7), rgba(38, 70, 83, 0.4)), url('/media/travel-games.webp') no-repeat center center fixed;
-    background-size: cover;
+    position: relative;
     height: 800px;
+    overflow: hidden;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(38, 70, 83, 0.7), rgba(38, 70, 83, 0.4));
+    z-index: 1;
+}
+
+.hero-section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.hero-section .container {
+    position: relative;
+    z-index: 2;
 }
 
 

@@ -17,13 +17,17 @@
                 <div class="image-container my-5">
                     {% if product.image %}
                     <a href="{{ product.image.url }}" target="_blank">
-                        <img class="card-img-top game-detail-image" src="{{ product.image.url }}"
-                            alt="{{ product.name }}">
+                        <picture>
+                            <source srcset="{{ product.image.url|slice:':-4' }}.webp" type="image/webp">
+                            <img class="card-img-top game-detail-image" src="{{ product.image.url }}" alt="{{ product.name }}" loading="eager">
+                        </picture>
                     </a>
                     {% else %}
                     <a href="">
-                        <img class="card-img-top game-detail-image" src="{{ MEDIA_URL }}noimage.png"
-                            alt="{{ product.name }}">
+                        <picture>
+                            <source srcset="{{ MEDIA_URL }}noimage.webp" type="image/webp">
+                            <img class="card-img-top game-detail-image" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}" loading="eager">
+                        </picture>
                     </a>
                     {% endif %}
                 </div>
