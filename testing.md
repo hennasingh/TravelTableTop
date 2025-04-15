@@ -52,3 +52,19 @@ I used VS Code Extension Flake 8 to correct linting errors as and when I worked 
 ![python flake 8](./assets_readme/pythonTestResults.png)
 
 
+## Lighthouse Testing
+
+| Page | Screenshot | Result |
+| ---- | ---------- | ------ |
+| Home Desktop | ![ lighthouse-home](./assets_readme/homeLighthouse.png) | PASS |
+| Home Mobile | ![lighthouse-mobile-home](./assets_readme/homeMobileLH.png) | PASS |
+| Products Desktop | ![products-desktop](./assets_readme/products-desktopLH.png) | PASS |
+| Products Mobile | ![products-mobile](./assets_readme/products-mobileLH.png) | PASS |
+| Profile Desktop | ![profile-LH](./assets_readme/profile-desktopLH.png) | PASS |
+| Profile Mobile | ![profile-mobile](./assets_readme/profileMobile-LH.png) | PASS |
+| Bag Desktop | ![bag-desktop-lighthouse](./assets_readme/bag-desktopLH.png) | PASS |
+| Bag Mobile | ![bag-mobile-lightouse](./assets_readme/bag-mobileLH.png) | PASS |
+| Checkout  Desktop | ![ checkout-desktop lighthouse ](./assets_readme/checkout-desktopLH.png)| PASS |
+| Checkout Mobile | ![checkout-mobile lighthouse](./assets_readme/checkout-mobileLH.png) | PASS |
+| Admin Desktop | ![product management lighthouse](./assets_readme/admin-desktopLH.png) | PASS |
+| Admin Mobile | ![add product mobile](./assets_readme/admin-mobileLH.png)  | PASS |
