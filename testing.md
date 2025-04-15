@@ -45,3 +45,10 @@ I have used the recommended [JShint Validator](https://jshint.com/) to validate 
 | product.js | ![product js validate](./assets_readme/productJSSValidate.png) | PASS |
 | bag.js | ![bag js validate](./assets_readme/bagJSValidate.png) | PASS |
 
+### Python
+
+I used VS Code Extension Flake 8 to correct linting errors as and when I worked on my project. For the final test I used command `python -m flake8 --exclude .venv,.vscode,migrations` to test my python files. The auto generated code in ``settings.py`` and code in ``env.py`` was left as is
+
+![python flake 8](./assets_readme/pythonTestResults.png)
+
+

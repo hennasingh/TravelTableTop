@@ -129,8 +129,8 @@
 {{ block.super }}
 <script>
     $('.btt-link').click(function (e) {
-        window.scrollTo(0, 0)
-    })
+        window.scrollTo(0, 0);
+    });
 </script>
 <script>
 
@@ -145,7 +145,7 @@
         if (form.length > 0) {
             form.submit();
         }
-    })
+    });
 
     // Remove item and reload on click
     $('.remove-item').click(function (e) {
@@ -157,6 +157,6 @@
             .done(function () {
                 location.reload();
             });
-    })
+    });
 </script>
 {% endblock %}
