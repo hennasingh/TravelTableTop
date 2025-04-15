@@ -175,15 +175,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 if 'USE_AWS' in os.environ:
     # Cache control
     AWS_S3_OBJECT_PARAMETERS = {
-        'CacheControl': 'max-age=2592000',  # 30 days
-        'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
-        'ContentEncoding': 'gzip',  # Enable gzip compression
-    }
-    
-    # Content types for images
-    AWS_S3_OBJECT_PARAMETERS_IMAGES = {
-        **AWS_S3_OBJECT_PARAMETERS,
-        'ContentType': 'image/webp',  # Prefer WebP
+        'CacheControl': 'max-age=86400',  # 1 day
+        'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT'
     }
     # Bucket settings
     AWS_STORAGE_BUCKET_NAME = 'traveltable'
