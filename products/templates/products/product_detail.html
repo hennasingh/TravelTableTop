@@ -42,8 +42,9 @@
                     <p class="lead mb-0 text-left font-weight-bold">€ {{ product.price }}</p>
                     {% if product.rating %}
                     <div class="rating mt-2">
-                        <span class="text-muted"><i class="fas fa-star mr-1 text-warning"></i>{{
-                            product.rating|floatformat:1 }} / 10</span>
+                        <span class="text-muted"><i class="fas fa-star mr-1 text-warning"></i>
+                            {{ product.rating|floatformat:1 }} / 10
+                        </span>
                         {% if product.complexity %}
                         <span class="ml-2 text-muted">
                             <i class="fas fa-brain mr-1"></i>
