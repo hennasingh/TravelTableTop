@@ -34,3 +34,14 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 | checkout.css | ![checkout css](./assets_readme/checkoutCSS.png) | PASS |
 | profile.css | ![profile css](image.png) | PASS |
 
+### JavaScript
+
+I have used the recommended [JShint Validator](https://jshint.com/) to validate all of my JS files.
+
+| File | Screenshot | Result |
+| ---- | ---------- | ------ |
+| countryfield.js |![country field JS Validate](./assets_readme/countryFieldJSS.png) | PASS |
+| stripe_elements.js | ![stripe JS Validate](./assets_readme/stripeJSSValidate.png) | Undefined variable |
+| product.js | ![product js validate](./assets_readme/productJSSValidate.png) | PASS |
+| bag.js | ![bag js validate](./assets_readme/bagJSValidate.png) | PASS |
+
