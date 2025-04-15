@@ -23,3 +23,14 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org/) to v
 | Signup | ![Signup](./assets_readme/signupHTML.png)| PASS |
 | Login | ![login](./assets_readme/loginHTML.png) | PASS |
 | Logout |![logout](./assets_readme/logoutHTML.png)| PASS |
+
+### CSS
+
+I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
+
+| File | Screenshot | Result |
+| ---- | ---------- | ------ |
+| base.css | ![base css](./assets_readme/baseCSS.png)| PASS |
+| checkout.css | ![checkout css](./assets_readme/checkoutCSS.png) | PASS |
+| profile.css | ![profile css](image.png) | PASS |
+
