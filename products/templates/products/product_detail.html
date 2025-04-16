@@ -18,7 +18,7 @@
                     {% if product.image %}
                     <a href="{{ product.image.url }}" target="_blank">
                         <picture>
-                            <source srcset="{{ product.image.url }}" type="image/webp">
+                            <source srcset="{{ product.image.url }}">
                             <img class="card-img-top game-detail-image" src="{{ product.image.url }}" alt="{{ product.name }}" loading="eager">
                         </picture>
                     </a>

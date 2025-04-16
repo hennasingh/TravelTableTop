@@ -53,14 +53,14 @@
                                 {% if product.image %}
                                 <a href="{% url 'product_detail' product.id %}">
                                     <picture>
-                                        <source srcset="{{ product.image.url }}" type="image/webp">
+                                        <source srcset="{{ product.image.url }}">
                                         <img class="card-img-top game-img-size" src="{{ product.image.url }}" alt="{{ product.name }}" loading="lazy">
                                     </picture>
                                 </a>
                                 {% else %}
                                 <a href="{% url 'product_detail' product.id %}">
                                     <picture>
-                                        <source srcset="{{ MEDIA_URL }}noimage.webp" type="image/webp">
+                                        <source srcset="{{ MEDIA_URL }}noimage.webp">
                                         <img class="card-img-top game-img-size" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}" loading="lazy">
                                     </picture>
                                 </a>
