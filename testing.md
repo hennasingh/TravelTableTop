@@ -68,3 +68,17 @@ I used VS Code Extension Flake 8 to correct linting errors as and when I worked 
 | Checkout Mobile | ![checkout-mobile lighthouse](./assets_readme/checkout-mobileLH.png) | PASS |
 | Admin Desktop | ![product management lighthouse](./assets_readme/admin-desktopLH.png) | PASS |
 | Admin Mobile | ![add product mobile](./assets_readme/admin-mobileLH.png)  | PASS |
+
+## Stripe 
+
+- Order Created Successfully
+
+![success-order](./assets_readme/successOrderNote.png)
+
+- Stripe webhooks
+
+![stripe webhooks](./assets_readme/stripeWebhooks.png)
+
+- Stripe Events
+
+![stripe events](./assets_readme/stripeEvents.png)
