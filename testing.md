@@ -32,7 +32,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 | ---- | ---------- | ------ |
 | base.css | ![base css](./assets_readme/baseCSS.png)| PASS |
 | checkout.css | ![checkout css](./assets_readme/checkoutCSS.png) | PASS |
-| profile.css | ![profile css](image.png) | PASS |
+| profile.css | ![profile css](./assets_readme/profileCSS.png) | PASS |
 
 ### JavaScript
 
