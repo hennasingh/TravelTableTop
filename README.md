@@ -22,9 +22,11 @@ The user stories were broken into epics and milestones. I had a high-level plan 
 
 Overall, the site aims to provide variety of travel games for your road, airplane, train trips. The platform allows both signed in and anonymous checkout and provides profile management and order history.
 
-Home Page - Introduction to Travel games
-Product Page - List of variety of games
-Login/Register - To maintain profile and order history, you have to create an account on the site.
+- **Home Page** - Introduction to Travel games
+- **Product Page** - List of variety of games
+- **Shopping Bag** - Games added to buy
+- **Checkout Page** - Payment page to buy games in the bag
+- **Login/Register**- To maintain profile and order history, you have to create an account on the site.
 
 ### Skeleton
 
@@ -60,13 +62,13 @@ Color scheme suggestions were taken from Coolers on uploading an image from pexe
 
 ##### Models
 
-1. User: The User model is part of Django Allauth. The model comes with predefined fields as standard. Some of them are username, email, name, password, and more. This model is used for user authentication, hence why changes directly to this model are not advisory. The User model is connected to the UserProfile model with one to one relationship.
+1. User: The User model is part of Django Allauth. The model comes with predefined fields including username, email, name, password, and more. This model is used for user authentication, hence why changes directly to this model are not advised. The User model is connected to the UserProfile model with one to one relationship.
 
 2. UserProfile: The UserProfile model is a custom model to handle the user profile details. Signals are used to reflect the changes between the User and UserProfile models.
 
 3. Category: This model was created for the purpose of defining categories for the products.
 
-4. Product: This is a custom model for storing games. It is connected to Category as a Foreign Key. Different games can have different categories. In addition it has fields for min_play time, min_age, complexity, num_players, year of publishing and more.
+4. Product: This is a custom model for storing products for the site. My initial products are games, but I considered possibility of adding other product types in future. It is connected to Category, with category_id as a Foreign Key. In addition it has fields for min_play time, min_age, complexity, num_players, year of publishing and more.
 
 5. Order: This model holds all the information of the user's order. It is connected to the UserProfile as a ForeignKey.
 
@@ -109,15 +111,85 @@ The structure of user-story issue consisted of user story, acceptance criteria, 
 
 ![User Story template](./assets_readme/userStory.png)
 
-## Site Features
+## Site Features & Responsiveness
+
+### Home Page - Desktop
+
+![home page](./assets_readme/homePageLap.png)
+
+### Home Page - Mobile
+
+![home page- mobile](./assets_readme/homeMobile.png)
+
+### Products Page - Desktop
+
+![products page](./assets_readme/productsDesktop.png)
+
+### Products Page - Mobile
+
+![products - mobile](./assets_readme/productsMobile.png)
+
+### Products Detail - Desktop
+
+![product detail - desktop](./assets_readme/productDetailDesk.png)
+
+### Products Detail - Mobile
+
+![product detail - mobile](./assets_readme/productDetailMobile.png)
+
+### Profile - Desktop
+
+![profile page](./assets_readme/profileDesk.png)
+
+### Profile - Mobile
+
+![profile - mobile view](./assets_readme/profileMobile.png)
+
+### Add Product - Desktop
+
+![add product -desktop view](./assets_readme/addProductDesk.png)
+
+### Add Product - Mobile
+
+![add product - mobile view](./assets_readme/addProductMobile.png)
+
+### Shopping Bag - Desktop
+
+![shopping bag - desktop view](./assets_readme/shoppingBagDesk.png)
+
+### Shopping Bag - Mobile
+
+![shopping bag - mobile view](./assets_readme/shopingBagMobile.png)
+
+### Checkout Page - Desktop
+
+![checkout page - desktop view](./assets_readme/checkoutDesktop.png)
+
+### Checkout Page - Mobile
+
+![checkout Page - Mobile](./assets_readme/checkoutMobile.png)
+
+### Footer with Newsletter Sign up
+
+![footer](./assets_readme/footer.png)
+
+
+### Signup 
+
+![sign-up](./assets_readme/signUp.png)
+
+### Login
+
+![sign-in](./assets_readme/signIn.png)
+
 
 ## Future Implementations
 
-1. I would like to add more varity of games and specific to travel medium :road, airplane, train.
+1. I would like to add more variety of games and specific to travel medium :road, airplane, train.
 2. I would like to add review model so that users can review their experience of playing the game.
 3. I would like to add wishlist model so users can save list of games.
 4. I would like to add a separate nav view for new games and special offers. 
-5. I would like to add subscription fetaure where users that subscribe can both sell and buy games from the platform.
+5. I would like to add subscription feature where users that subscribe can both sell and buy games from the platform.
 6. I would like to customize admin dashboard where admin can see a record of sales, inventory count and most bought games from
 the platform
 
@@ -133,7 +205,6 @@ the platform
 
 ### Technologies and Programs
 
-- [Git](https://git-scm.com/) used for version control. (git add, git commit, git push)
 - [GitHub](https://github.com/) used for secure online code storage.
 - [Bootstrap](https://getbootstrap.com/) used as the front-end CSS framework for modern responsiveness and pre-built components.
 - [Django](https://www.djangoproject.com/) used as the Python framework for the site.
@@ -159,7 +230,7 @@ Promoting on social media can build a community of users around the business, an
 
 A newsletter list can be used by the business to send regular messages to site users. For example, what items are on special offer, new items in stock, updates to business hours, notifications of events, and much more!
 
-## Seach Engine Optimization (SEO) & Social Media Marketing
+## Search Engine Optimization (SEO) & Social Media Marketing
 
 ### Keywords
 
@@ -169,14 +240,14 @@ should appear in the search engine results. These included 2 kinds of keywords:
 - Short-tail keywords
 - Long-tail keywords#
 
-I played around with [Word Tracker](https://www.wordtracker.com/) to check the frequency of some of my site's primary keywords and also turned the process of searching for keywords into an SEO article.
+I played around with [Word Tracker](https://www.wordtracker.com/) to check the frequency of some of my site's primary keywords.
 
 
 ![work tracker results](./assets_readme/wordTracker.png)
 
 ### Sitemap
 
-I'have used [XML-Sitemaps](https://www.xml-sitemaps.com/) to generate a sitemap.xml file. This was generated using my deployed site URL: https://travel-table-top-6a0c25007929.herokuapp.com/
+I used [XML-Sitemaps](https://www.xml-sitemaps.com/) to generate a sitemap.xml file. This was generated using my deployed site URL: https://travel-table-top-6a0c25007929.herokuapp.com/
 
 After it finished crawling the entire site, it created a [sitemap.xml](https://github.com/hennasingh/TravelTableTop/blob/main/sitemap.xml) which I've downloaded and included in the repository.
 
@@ -209,7 +280,7 @@ I created a [mock facebook page](https://www.facebook.com/traveltabletop) for tr
 
 I embedded a newsletter sign-up form provided by mailchimp in my application, to allow users to input their email address if they are interested in learning more.
 
-![newsleeter subscription](./assets_readme/newsletterSub.png)
+![newsletter subscription](./assets_readme/newsletterSub.png)
 
 ## Testing
 
@@ -413,7 +484,7 @@ As a backup, in case users prematurely close the purchase-order page during paym
 ### Code 
 
 - Boutique Ado walkthrough 
-- [Windsurf](https://windsurf.com/) - for help with footer alignment, FAQa and Contact us page
+- [Windsurf](https://windsurf.com/) - for help with footer alignment, FAQs and Contact us page
 
 ### Acknowledgements
 
