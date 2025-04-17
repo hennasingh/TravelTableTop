@@ -473,6 +473,7 @@ As a backup, in case users prematurely close the purchase-order page during paym
 
 - [Pexels](https://www.pexels.com/photo/colorful-cards-and-dice-8111264/) - Home Page Hero Image
 - [Font-Awesome](https://fontawesome.com/search?ic=free) - social media icons
+- [Flaticon](https://www.flaticon.com/free-icon/dice_9677576?term=games&page=1&position=14&origin=search&related_id=9677576) - favicon
 - [Coolers.co](https://coolors.co/) - for color scheme
 
 ### Content 
