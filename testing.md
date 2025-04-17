@@ -160,3 +160,16 @@ Testing was performed on:
 | | Click on Edit in the product detail page or products page | redirects to product management with pre-filled details on the product | PASS |
 | | Click on delete product | Product is deleted | PASS |
 
+
+## BUGS
+
+There were a few bugs encountered during the development of the project. The bugs are listed and updated in the 
+[Travel Table Top Project Board](https://github.com/users/hennasingh/projects/8)
+
+| BUG | STATUS |
+| --- | ------ |
+| [Bug:42 - Update not working in Mobile View](https://github.com/hennasingh/TravelTableTop/issues/42) | Closed |
+| [Bug:41 - Toast Error message displayed after successful registration](https://github.com/hennasingh/TravelTableTop/issues/41) | Closed |
+| [Bug:36 -Checkout page throws data error on large quantities](https://github.com/hennasingh/TravelTableTop/issues/36) | Closed |
+| [Bug:34 - Product Detail with integer id throws error](https://github.com/hennasingh/TravelTableTop/issues/34) | Closed |
+| [Bug:22 -Quantity not updated when updated from bag page](https://github.com/hennasingh/TravelTableTop/issues/22) | Closed |
